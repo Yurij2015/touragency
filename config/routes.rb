@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   get 'tour_agency/index'
 
-  resources :tours
+  resources :tours do
+    resources :shedules
+  end
 
   # root 'tour_agency#index'
   root 'tours#index'

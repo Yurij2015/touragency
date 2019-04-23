@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_23_091616) do
+ActiveRecord::Schema.define(version: 2019_04_23_160643) do
+
+  create_table "shedules", force: :cascade do |t|
+    t.datetime "datetimetour"
+    t.integer "countplace"
+    t.decimal "tourcost"
+    t.integer "tour_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["tour_id"], name: "index_shedules_on_tour_id"
+  end
 
   create_table "tours", force: :cascade do |t|
     t.string "title"

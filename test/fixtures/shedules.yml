@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  datetimetour: 2019-04-23 19:06:43
+  countplace: 1
+  tourcost: 9.99
+  tour: one
+
+two:
+  datetimetour: 2019-04-23 19:06:43
+  countplace: 1
+  tourcost: 9.99
+  tour: two

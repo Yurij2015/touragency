@@ -1,0 +1,2 @@
+class ShedulesController < ApplicationController
+end

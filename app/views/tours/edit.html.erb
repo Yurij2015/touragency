@@ -1,0 +1,34 @@
+<h1>Редактировать экскурсию</h1>
+
+<%= form_with(model: @tour, local: true) do |form| %>
+
+  <% if @tour.errors.any? %>
+    <div id="error_explanation">
+      <h4>
+        <%= pluralize(@tour.errors.count, "error") %> prohibited this article from being saved:
+      </h4>
+      <ul>
+        <% @tour.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </p>
+
+  <p>
+    <%= form.label :text %><br>
+    <%= form.text_area :description %>
+  </p>
+
+  <p>
+    <%= form.submit %>
+  </p>
+
+<% end %>
+
+<%= link_to 'К списку экскурсий', tours_path %>

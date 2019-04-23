@@ -9,13 +9,31 @@ class ToursController < ApplicationController
   end
 
   def new
+    @tour = Tour.new
+  end
+
+  def edit
+    @tour = Tour.find(params[:id])
   end
 
   def create
     @tour = Tour.new(tour_params)
 
-    @tour.save
-    redirect_to @tour
+    if @tour.save
+      redirect_to @tour
+    else
+      render 'new'
+    end
+  end
+
+  def update
+    @tour = Tour.find(params[:id])
+
+    if @tour.update(tour_params)
+      redirect_to @tour
+    else
+      render 'edit'
+    end
   end
 
   private

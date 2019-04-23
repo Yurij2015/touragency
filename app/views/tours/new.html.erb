@@ -83,6 +83,19 @@
     <%#= form_with scope: :tour, local: true do |form| %>
     <%= form_with scope: :tour, url: tours_path, local: true do |form| %>
 
+      <% if @tour.errors.any? %>
+        <div id="error_explanation">
+          <h4 style="color: #B00100">
+            <%= pluralize(@tour.errors.count, "error") %> prohibited this tour from being saved:
+          </h4>
+          <ul>
+            <% @tour.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
       <div class="form-group">
         <%= form.label :title %><br>
         <%= form.text_field :title, class: "form-control" %>

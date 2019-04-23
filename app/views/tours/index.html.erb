@@ -12,6 +12,7 @@
       <td><%= tour.title %></td>
       <td><%= tour.description %></td>
       <td><%= link_to 'Показать', tour_path(tour) %></td>
+      <td><%= link_to 'Редактировать', edit_tour_path(tour) %></td>
     </tr>
   <% end %>
 </table>

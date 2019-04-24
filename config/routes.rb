@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
+  get 'users/new'
   get 'tour_agency/index'
+  get 'signup' => 'users#new'
+
 
   resources :tours
   resources :shedules

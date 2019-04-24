@@ -25,14 +25,17 @@
     <div class="row">
       <div class="col-lg-12">
         <h1>Название экскурсии:
-          <%= @tour.title %>
+          <%= @shedule.tour.title  %>
         </h1>
-        <p>
-          <strong>Описание экскурсии:</strong>
-          <%= @tour.description.html_safe %>
+        <p>Стоимость экскурсии:
+          <%= @shedule.tourcost %>
         </p>
-        <%= link_to 'Редактировать', edit_tour_path(@tour) %> |
-        <%= link_to 'К списку экскурсий', tours_path %>
+        <p>
+          <strong>Количество мест:</strong>
+          <%= @shedule.countplace%>
+        </p>
+        <%= link_to 'Редактировать', edit_shedule_path(@shedule) %> |
+        <%= link_to 'К расписанию', shedules_path %>
       </div>
     </div>
     <div class="col-lg-4 col-md-5 col-sm-6">

@@ -1,9 +1,4 @@
 class ShedulesController < ApplicationController
-  # def apply
-  #   @tour = Tour.new
-  #   @tours = Tour.pluck(:title, :id)
-  # end
-
   def index
     @shedules = Shedule.all
   end
@@ -21,11 +16,7 @@ class ShedulesController < ApplicationController
   end
 
   def create
-    @shedule = Shedule.new(tour_params)
-    #
-    # @tour = Tour.new
-    # @tours = Tour.pluck(:title, :id)
-
+    @shedule = Shedule.new(shedule_params)
     if @shedule.save
       redirect_to @shedule
     else
@@ -36,7 +27,7 @@ class ShedulesController < ApplicationController
   def update
     @shedule = Shedule.find(params[:id])
 
-    if @shedule.update(tour_params)
+    if @shedule.update(shedule_params)
       redirect_to @shedule
     else
       render 'edit'

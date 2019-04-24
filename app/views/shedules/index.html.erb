@@ -24,7 +24,7 @@
   <div class="page-header" id="banner">
     <div class="row">
       <div class="col-lg-12">
-        <h1>Список экскурсий</h1>
+        <h1>Расписание экскурсий</h1>
         <table class="table table-hover table-bordered">
           <tr>
             <th>Название</th>
@@ -32,14 +32,16 @@
             <th></th>
             <th></th>
             <th></th>
+            <th></th>
           </tr>
           <% @shedules.each do |shedule| %>
             <tr>
+              <td><%= shedule.tour.title %></td>
               <td><%= shedule.datetimetour %></td>
               <td><%= shedule.countplace %></td>
-              <td><%= link_to 'Показать', tour_path(tour) %></td>
-              <td><%= link_to 'Редактировать', edit_tour_path(tour) %></td>
-              <td><%= link_to 'Удалить', tour_path(tour),
+              <td><%= link_to 'Показать', shedule_path(shedule) %></td>
+              <td><%= link_to 'Редактировать', edit_shedule_path(shedule) %></td>
+              <td><%= link_to 'Удалить', shedule_path(shedule),
                               method: :delete,
                               data: {confirm: 'Вы уверены?'} %></td>
             </tr>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_24_070654) do
+ActiveRecord::Schema.define(version: 2019_04_24_114304) do
 
   create_table "shedules", force: :cascade do |t|
     t.datetime "datetimetour"
@@ -38,6 +38,15 @@ ActiveRecord::Schema.define(version: 2019_04_24_070654) do
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "password_digest"
+    t.index ["email"], name: "index_users_on_email", unique: true
   end
 
 end

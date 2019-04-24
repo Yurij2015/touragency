@@ -22,197 +22,235 @@
     </table>
     <table id="11" parent="2" name="tour_orders"/>
     <table id="12" parent="2" name="tours"/>
-    <column id="13" parent="6" name="key">
+    <table id="13" parent="2" name="users"/>
+    <column id="14" parent="6" name="key">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="14" parent="6" name="value">
+    <column id="15" parent="6" name="value">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="15" parent="6" name="created_at">
+    <column id="16" parent="6" name="created_at">
       <Position>3</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="16" parent="6" name="updated_at">
+    <column id="17" parent="6" name="updated_at">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="17" parent="6" name="sqlite_autoindex_ar_internal_metadata_1">
+    <index id="18" parent="6" name="sqlite_autoindex_ar_internal_metadata_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>key</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="18" parent="6">
+    <key id="19" parent="6">
       <ColNames>key</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_ar_internal_metadata_1</UnderlyingIndexName>
     </key>
-    <column id="19" parent="7" name="version">
+    <column id="20" parent="7" name="version">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="20" parent="7" name="sqlite_autoindex_schema_migrations_1">
+    <index id="21" parent="7" name="sqlite_autoindex_schema_migrations_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="21" parent="7">
+    <key id="22" parent="7">
       <ColNames>version</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_schema_migrations_1</UnderlyingIndexName>
     </key>
-    <column id="22" parent="8" name="id">
+    <column id="23" parent="8" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="23" parent="8" name="datetimetour">
+    <column id="24" parent="8" name="datetimetour">
       <Position>2</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="24" parent="8" name="countplace">
+    <column id="25" parent="8" name="countplace">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
     </column>
-    <column id="25" parent="8" name="tourcost">
+    <column id="26" parent="8" name="tourcost">
       <Position>4</Position>
       <DataType>decimal|0s</DataType>
     </column>
-    <column id="26" parent="8" name="tour_id">
+    <column id="27" parent="8" name="tour_id">
       <Position>5</Position>
       <DataType>integer|0s</DataType>
     </column>
-    <column id="27" parent="8" name="created_at">
+    <column id="28" parent="8" name="created_at">
       <Position>6</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="28" parent="8" name="updated_at">
+    <column id="29" parent="8" name="updated_at">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="29" parent="8" name="index_shedules_on_tour_id">
+    <index id="30" parent="8" name="index_shedules_on_tour_id">
       <ColNames>tour_id</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="30" parent="8">
+    <key id="31" parent="8">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="31" parent="8" name="fk_rails_02fcad0b7f">
+    <foreign-key id="32" parent="8" name="fk_rails_02fcad0b7f">
       <ColNames>tour_id</ColNames>
       <RefTableName>tours</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="32" parent="9" name="type">
+    <column id="33" parent="9" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="33" parent="9" name="name">
+    <column id="34" parent="9" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="34" parent="9" name="tbl_name">
+    <column id="35" parent="9" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="35" parent="9" name="rootpage">
+    <column id="36" parent="9" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="36" parent="9" name="sql">
+    <column id="37" parent="9" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="37" parent="10" name="name">
+    <column id="38" parent="10" name="name">
       <Position>1</Position>
     </column>
-    <column id="38" parent="10" name="seq">
+    <column id="39" parent="10" name="seq">
       <Position>2</Position>
     </column>
-    <column id="39" parent="11" name="id">
+    <column id="40" parent="11" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="40" parent="11" name="customer">
+    <column id="41" parent="11" name="customer">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="41" parent="11" name="cellphone">
+    <column id="42" parent="11" name="cellphone">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="42" parent="11" name="email">
+    <column id="43" parent="11" name="email">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="43" parent="11" name="custdatetour">
+    <column id="44" parent="11" name="custdatetour">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
     </column>
-    <column id="44" parent="11" name="tour_id">
+    <column id="45" parent="11" name="tour_id">
       <Position>6</Position>
       <DataType>integer|0s</DataType>
     </column>
-    <column id="45" parent="11" name="created_at">
+    <column id="46" parent="11" name="created_at">
       <Position>7</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="46" parent="11" name="updated_at">
+    <column id="47" parent="11" name="updated_at">
       <Position>8</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="47" parent="11" name="index_tour_orders_on_tour_id">
+    <index id="48" parent="11" name="index_tour_orders_on_tour_id">
       <ColNames>tour_id</ColNames>
       <ColumnCollations></ColumnCollations>
     </index>
-    <key id="48" parent="11">
+    <key id="49" parent="11">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="49" parent="11" name="fk_rails_253cccb5d7">
+    <foreign-key id="50" parent="11" name="fk_rails_253cccb5d7">
       <ColNames>tour_id</ColNames>
       <RefTableName>tours</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="50" parent="12" name="id">
+    <column id="51" parent="12" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="51" parent="12" name="title">
+    <column id="52" parent="12" name="title">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <column id="52" parent="12" name="description">
+    <column id="53" parent="12" name="description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="53" parent="12" name="created_at">
+    <column id="54" parent="12" name="created_at">
       <Position>4</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="54" parent="12" name="updated_at">
+    <column id="55" parent="12" name="updated_at">
       <Position>5</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <key id="55" parent="12">
+    <key id="56" parent="12">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="13" name="name">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="59" parent="13" name="email">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <column id="60" parent="13" name="created_at">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="13" name="updated_at">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="62" parent="13" name="password_digest">
+      <Position>6</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <index id="63" parent="13" name="index_users_on_email">
+      <ColNames>email</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="13">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

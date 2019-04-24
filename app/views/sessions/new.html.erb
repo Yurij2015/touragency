@@ -1,2 +1,40 @@
-<h1>Sessions#new</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<%= render 'layouts/mainmenu' %>
+<div class="container">
+  <div class="page-header" id="banner">
+    <div class="row">
+      <div class="row" style="margin-top: 50px">
+        <% flash.each do |message_type, message| %>
+          <div class="alert alert-<%= message_type %>"><%= message %></div>
+        <% end %>
+      </div>
+      <div class="col-lg-4">
+        <h1>Авторизация</h1>
+        <p>Страница авторизации пользователей!</p>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-4">
+          <%= form_for(:session, url: login_path) do |f| %>
+
+            <div class="form-group">
+              <%= f.label :email %>
+              <%= f.email_field :email, class: 'form-control' %>
+            </div>
+
+            <div class="form-group">
+              <%= f.label :password %>
+              <%= f.password_field :password, class: 'form-control' %>
+            </div>
+
+            <div class="form-group">
+              <%= f.submit "Войти", class: "btn btn-primary" %>
+            </div>
+          <% end %>
+          <p>Новый пользователь? <%= link_to "Страница регистрации!", signup_path %></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-md-5 col-sm-6">
+    </div>
+  </div>
+</div>

@@ -245,12 +245,16 @@
       <Position>6</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <index id="63" parent="13" name="index_users_on_email">
+    <column id="63" parent="13" name="remember_digest">
+      <Position>7</Position>
+      <DataType>varchar|0s</DataType>
+    </column>
+    <index id="64" parent="13" name="index_users_on_email">
       <ColNames>email</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="64" parent="13">
+    <key id="65" parent="13">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

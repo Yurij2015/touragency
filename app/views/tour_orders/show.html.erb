@@ -1,0 +1,29 @@
+<%= render 'layouts/mainmenu' %>
+<div class="container">
+  <div class="page-header" id="banner">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Клиент:
+          <%= @tour_order.customer %>
+        </h3>
+        <h4>Название экскурсии:
+          <%= @tour_order.tour.title %>
+        </h4>
+        <p>Номер телефона:
+          <%= @tour_order.cellphone %>
+        </p>
+        <p>Электронная почта':
+          <%= @tour_order.email %>
+        </p>
+        <p>
+          <strong>Дата:</strong>
+          <%= @tour_order.custdatetour %>
+        </p>
+        <%= link_to 'Редактировать', edit_tour_order_path(@tour_order) %> |
+        <%= link_to 'К списку записей', tour_orders_path %>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
+    </div>
+  </div>
+</div>

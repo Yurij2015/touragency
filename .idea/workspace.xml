@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3069c93-6389-4154-92c0-109e78a14407" name="Default Changelist" comment="" />
+    <list default="true" id="b3069c93-6389-4154-92c0-109e78a14407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tour_orders/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tour_orders/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tour_orders/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tour_orders/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tour_orders/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e46fa6e1-e223-48aa-ac4c-518983766964.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e46fa6e1-e223-48aa-ac4c-518983766964.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/tour.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tour.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/tour_order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tour_order.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shedules/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shedules/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shedules/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shedules/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shedules/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shedules/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shedules/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shedules/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tours/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/log/" />
@@ -16,7 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TourAgency@Development__TourAgency.rcov" NAME="Development: TourAgency Coverage Results" MODIFIED="1556078153934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TourAgency" />
+    <SUITE FILE_PATH="coverage/TourAgency@Development__TourAgency.rcov" NAME="Development: TourAgency Coverage Results" MODIFIED="1556094311565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TourAgency" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -57,6 +78,13 @@
         <item name="Rails TourAgency: development" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="tour_orders: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Rails TourAgency: development" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
         <item name="tours: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
@@ -67,26 +95,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shedules/_form.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="460">
+              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shedules/show.html.erb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+            <state relative-caret-position="391">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -94,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tours/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -103,35 +131,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tours/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/shedule.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shedules/new.html.erb">
+        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/shedules/index.html.erb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shedules/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/edit.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -139,17 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tours/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shedules/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state>
+              <caret column="32" selection-start-column="32" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -173,19 +201,30 @@
         <option value="$PROJECT_DIR$/app/views/tours/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/tour.rb" />
         <option value="$PROJECT_DIR$/app/models/shedule.rb" />
         <option value="$PROJECT_DIR$/app/controllers/shedules_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/shedules/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/tours/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/tours/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/tours/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/tours/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shedules/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/tour_order.rb" />
+        <option value="$PROJECT_DIR$/app/models/tour.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tour_order_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/tour_order/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tour_order/_form.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/tour_orders_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/tour_orders/_menu.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tour_orders/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shedules/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shedules/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shedules/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shedules/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shedules/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tour_orders/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tour_orders/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tours/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tours/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tours/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tours/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/tour_orders/show.html.erb" />
       </list>
     </option>
   </component>
@@ -261,6 +300,13 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="tour_agency" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="tour_orders" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="TourAgency" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -380,6 +426,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/layouts" />
+      <recent name="$PROJECT_DIR$/app/views/tour_orders" />
+      <recent name="$PROJECT_DIR$/app/views/tour_order" />
       <recent name="$PROJECT_DIR$/app/views/shedules" />
     </key>
   </component>
@@ -505,23 +554,22 @@
       <updated>1555484405965</updated>
       <workItem from="1555484407715" duration="7769000" />
       <workItem from="1555967809993" duration="24156000" />
-      <workItem from="1556076511880" duration="7280000" />
+      <workItem from="1556076511880" duration="11409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39205000" />
+    <option name="totallyTimeSpent" value="43334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19222577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297244" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23518851" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32944345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17953321" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,7 +577,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.30610412" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.10682226" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18491921" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.17814961" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32944345" />
@@ -659,20 +707,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tour.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/tours_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -684,13 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/shedules_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -708,66 +735,2038 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tour.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/shedule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="27" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/e46fa6e1-e223-48aa-ac4c-518983766964.SCHEMA:main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>e46fa6e1-e223-48aa-ac4c-518983766964.SCHEMA:main</OriginalElement>
+          <nodes>
+            <node x="113.25" y="0.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.tours</node>
+            <node x="420.0" y="441.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.schema_migrations</node>
+            <node x="452.0" y="0.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.sqlite_master</node>
+            <node x="214.0" y="190.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.tour_orders</node>
+            <node x="0.0" y="201.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.shedules</node>
+            <node x="0.0" y="441.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.ar_internal_metadata</node>
+            <node x="226.0" y="441.0">e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.sqlite_sequence</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.shedules" target="e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.tours">
+              <point x="0.0" y="-92.0" />
+              <point x="97.0" y="165.0" />
+              <point x="158.5" y="165.0" />
+              <point x="-45.25" y="70.0" />
+            </edge>
+            <edge source="e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.tour_orders" target="e46fa6e1-e223-48aa-ac4c-518983766964.TABLE:main.tours">
+              <point x="0.0" y="-103.0" />
+              <point x="310.5" y="165.0" />
+              <point x="249.0" y="165.0" />
+              <point x="45.25" y="70.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-33.0" y="123.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://GemDependency/#TourAgency">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>GemDependency</ID>
+          <OriginalElement>#TourAgency</OriginalElement>
+          <nodes>
+            <node x="2551.336276334776" y="1083.0">responders</node>
+            <node x="5370.622042577641" y="1431.0">jbuilder</node>
+            <node x="5011.981417577641" y="1083.0">sass-listen</node>
+            <node x="2258.336276334776" y="1083.0">activejob</node>
+            <node x="4772.261582464796" y="1232.0">sass</node>
+            <node x="6305.04804079813" y="1431.0">puma</node>
+            <node x="1334.7343749999995" y="79.0">tzinfo</node>
+            <node x="6190.04804079813" y="1431.0">turbolinks</node>
+            <node x="3550.5245046988534" y="1083.0">ransack</node>
+            <node x="4195.600124131463" y="1232.0">rubyzip</node>
+            <node x="549.7567963655206" y="1431.0">capybara</node>
+            <node x="3342.0870046988534" y="1970.0">#TourAgency</node>
+            <node x="6200.073579545455" y="1232.0">turbolinks-source</node>
+            <node x="1105.4843749999995" y="1083.0">mail</node>
+            <node x="5858.068874131464" y="844.0">execjs</node>
+            <node x="4021.6001241314634" y="1232.0">arbre</node>
+            <node x="3705.6001241314634" y="844.0">railties</node>
+            <node x="5547.11942027417" y="1431.0">bootstrap-sass</node>
+            <node x="5695.11942027417" y="1232.0">autoprefixer-rails</node>
+            <node x="1901.2180218587364" y="1083.0">kaminari-actionview</node>
+            <node x="294.5537361444508" y="79.0">nokogiri</node>
+            <node x="3866.069959244308" y="1083.0">jquery-rails</node>
+            <node x="3443.7120046988534" y="1232.0">bindex</node>
+            <node x="3252.3370046988534" y="1083.0">sprockets</node>
+            <node x="1460.6362763347756" y="337.0">rails-html-sanitizer</node>
+            <node x="75.95998614445125" y="1083.0">io-like</node>
+            <node x="3487.897916666666" y="1431.0">web-console</node>
+            <node x="864.7343749999995" y="1232.0">addressable</node>
+            <node x="6011.49442027417" y="1083.0">uglifier</node>
+            <node x="304.0537361444508" y="337.0">erubi</node>
+            <node x="2540.658333333333" y="635.0">actionpack</node>
+            <node x="2933.2224213655204" y="1232.0">inherited_resources</node>
+            <node x="3297.7120046988534" y="1232.0">formtastic_i18n</node>
+            <node x="2768.0349213655204" y="79.0">minitest</node>
+            <node x="3662.5245046988534" y="1431.0">activeadmin</node>
+            <node x="4827.761582464796" y="1431.0">spring-watcher-listen</node>
+            <node x="4659.481417577641" y="635.0">rake</node>
+            <node x="4493.615246212121" y="1232.0">coffee-rails</node>
+            <node x="3246.3370046988534" y="635.0">activemodel</node>
+            <node x="5513.912121212121" y="1232.0">multi_json</node>
+            <node x="442.5537361444508" y="844.0">websocket-extensions</node>
+            <node x="4127.600124131463" y="1232.0">tilt</node>
+            <node x="2904.593744894932" y="844.0">activerecord</node>
+            <node x="3428.5773968587364" y="0.0">concurrent-ruby</node>
+            <node x="541.1718752228139" y="337.0">rack</node>
+            <node x="78.70998614445125" y="1431.0">chromedriver-helper</node>
+            <node x="2804.593744894932" y="844.0">globalid</node>
+            <node x="5756.068874131464" y="635.0">ffi</node>
+            <node x="2679.086276334776" y="1232.0">kaminari</node>
+            <node x="1191.2343749999995" y="79.0">crass</node>
+            <node x="1823.2180218587364" y="1232.0">actionmailer</node>
+            <node x="725.7343749999995" y="1232.0">regexp_parser</node>
+            <node x="4104.694959244308" y="1083.0">marcel</node>
+            <node x="4080.1001241314634" y="1431.0">sqlite3</node>
+            <node x="3927.568371212121" y="635.0">thor</node>
+            <node x="1154.2343749999995" y="188.0">loofah</node>
+            <node x="388.0537361444508" y="506.0">rack-test</node>
+            <node x="3574.522916666666" y="79.0">i18n</node>
+            <node x="1362.2343749999995" y="1232.0">actioncable</node>
+            <node x="4928.854829545455" y="844.0">rb-fsevent</node>
+            <node x="3735.069959244308" y="1083.0">tinymce-rails</node>
+            <node x="4227.78241579813" y="635.0">method_source</node>
+            <node x="3106.2224213655204" y="1232.0">sprockets-rails</node>
+            <node x="946.4843749999995" y="1083.0">websocket-driver</node>
+            <node x="2365.336276334776" y="1083.0">kaminari-activerecord</node>
+            <node x="5217.981417577641" y="1232.0">spring</node>
+            <node x="1936.6571098909237" y="844.0">kaminari-core</node>
+            <node x="2919.171146858737" y="188.0">activesupport</node>
+            <node x="704.9234630321866" y="1083.0">public_suffix</node>
+            <node x="260.0537361444508" y="1232.0">xpath</node>
+            <node x="4626.231417577641" y="1232.0">childprocess</node>
+            <node x="1240.7343749999995" y="0.0">thread_safe</node>
+            <node x="3940.444959244308" y="1431.0">sassc-rails</node>
+            <node x="5012.761582464796" y="1431.0">byebug</node>
+            <node x="658.138657287157" y="844.0">mini_mime</node>
+            <node x="4492.002250910975" y="844.0">mimemagic</node>
+            <node x="6001.4194204969845" y="844.0">coffee-script-source</node>
+            <node x="5946.99442027417" y="1431.0">bootsnap</node>
+            <node x="2274.533333333333" y="844.0">has_scope</node>
+            <node x="4877.356417577641" y="1083.0">ruby_dep</node>
+            <node x="4319.002250910975" y="1431.0">selenium-webdriver</node>
+            <node x="2132.836276334776" y="635.0">arel</node>
+            <node x="2605.398776334776" y="1431.0">rails</node>
+            <node x="5920.99442027417" y="1232.0">msgpack</node>
+            <node x="1521.2680218587366" y="506.0">actionview</node>
+            <node x="5787.99442027417" y="1083.0">coffee-script</node>
+            <node x="2052.2180218587364" y="1232.0">formtastic</node>
+            <node x="147.13344895382397" y="0.0">mini_portile2</node>
+            <node x="14.20998614445125" y="337.0">builder</node>
+            <node x="2798.2224213655204" y="1232.0">activestorage</node>
+            <node x="1277.2343749999995" y="1083.0">nio4r</node>
+            <node x="43.20998614445125" y="1232.0">archive-zip</node>
+            <node x="5209.5548371636505" y="844.0">rb-inotify</node>
+            <node x="1629.6362763347756" y="337.0">rails-dom-testing</node>
+            <node x="5426.912121212121" y="1232.0">sassc</node>
+            <node x="1723.2180218587364" y="1232.0">bundler</node>
+            <node x="5132.981417577641" y="1232.0">listen</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="actioncable" target="websocket-driver">
+              <point x="-34.0" y="-14.5" />
+              <point x="1379.2343749999995" y="1212.0" />
+              <point x="1050.7343749999995" y="1212.0" />
+              <point x="34.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="spring-watcher-listen">
+              <point x="25.078125" y="-14.5" />
+              <point x="3420.6651296988534" y="1700.0" />
+              <point x="4910.261582464796" y="1700.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="byebug">
+              <point x="26.192708333333485" y="-14.5" />
+              <point x="3421.779713032187" y="1710.0" />
+              <point x="5051.761582464796" y="1710.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="childprocess">
+              <point x="22.848958333333485" y="-14.5" />
+              <point x="3418.435963032187" y="1680.0" />
+              <point x="4708.731417577641" y="1680.0" />
+              <point x="27.5" y="14.5" />
+            </edge>
+            <edge source="selenium-webdriver" target="rubyzip">
+              <point x="-38.0" y="-14.5" />
+              <point x="4357.002250910975" y="1351.0" />
+              <point x="4254.100124131463" y="1351.0" />
+              <point x="19.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="arbre">
+              <point x="8.359375" y="-14.5" />
+              <point x="3403.9463796988534" y="1550.0" />
+              <point x="4069.6001241314634" y="1550.0" />
+              <point x="16.0" y="14.5" />
+            </edge>
+            <edge source="autoprefixer-rails" target="execjs">
+              <point x="0.0" y="-14.5" />
+              <point x="5764.11942027417" y="1043.0" />
+              <point x="5866.818874131464" y="1043.0" />
+              <point x="-26.25" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="rails-dom-testing">
+              <point x="0.0" y="-14.5" />
+              <point x="1876.2180218587364" y="1162.0" />
+              <point x="1701.7180218587364" y="1162.0" />
+              <point x="1701.7180218587364" y="486.0" />
+              <point x="1699.1362763347756" y="486.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rack-test">
+              <point x="-44.026041666666515" y="-14.5" />
+              <point x="3351.560963032187" y="1870.0" />
+              <point x="249.5537361444508" y="1870.0" />
+              <point x="249.5537361444508" y="1063.0" />
+              <point x="310.06770833333303" y="1063.0" />
+              <point x="310.06770833333303" y="615.0" />
+              <point x="402.72040281111776" y="615.0" />
+              <point x="-29.33333333333303" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="selenium-webdriver">
+              <point x="15.046875" y="-14.5" />
+              <point x="3410.6338796988534" y="1610.0" />
+              <point x="4395.002250910975" y="1610.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rails">
+              <point x="-10.588541666666515" y="-14.5" />
+              <point x="3384.998463032187" y="1570.0" />
+              <point x="2633.898776334776" y="1570.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="addressable" target="public_suffix">
+              <point x="0.0" y="-14.5" />
+              <point x="917.7343749999995" y="1212.0" />
+              <point x="787.4234630321866" y="1212.0" />
+              <point x="27.5" y="14.5" />
+            </edge>
+            <edge source="capybara" target="regexp_parser">
+              <point x="25.14285714285711" y="-14.5" />
+              <point x="618.8996535083775" y="1401.0" />
+              <point x="755.4843749999995" y="1401.0" />
+              <point x="-29.75" y="14.5" />
+            </edge>
+            <edge source="actionview" target="rails-dom-testing">
+              <point x="38.80000000000018" y="-14.5" />
+              <point x="1608.5680218587368" y="486.0" />
+              <point x="1671.3362763347754" y="486.0" />
+              <point x="-27.800000000000182" y="14.5" />
+            </edge>
+            <edge source="sassc-rails" target="sprockets-rails">
+              <point x="-39.19999999999982" y="-14.5" />
+              <point x="3950.244959244308" y="1281.0" />
+              <point x="3209.555754698854" y="1281.0" />
+              <point x="41.333333333333485" y="14.5" />
+            </edge>
+            <edge source="kaminari" target="kaminari-core">
+              <point x="10.375000000000455" y="-14.5" />
+              <point x="2730.961276334777" y="1212.0" />
+              <point x="2735.836276334777" y="1212.0" />
+              <point x="2735.836276334777" y="953.0" />
+              <point x="2038.1571098909237" y="953.0" />
+              <point x="43.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activejob">
+              <point x="-13.932291666666515" y="-14.5" />
+              <point x="3381.654713032187" y="1600.0" />
+              <point x="2224.5253135254034" y="1600.0" />
+              <point x="2224.5253135254034" y="1212.0" />
+              <point x="2301.836276334776" y="1212.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="nokogiri" target="mini_portile2">
+              <point x="0.0" y="-14.5" />
+              <point x="335.5537361444508" y="59.0" />
+              <point x="229.63344895382397" y="59.0" />
+              <point x="27.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activeadmin">
+              <point x="3.901041666666515" y="-14.5" />
+              <point x="3399.48804636552" y="1510.0" />
+              <point x="3715.0245046988534" y="1510.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionmailer">
+              <point x="-16.625" y="-14.5" />
+              <point x="2617.273776334776" y="1391.0" />
+              <point x="1902.7180218587364" y="1391.0" />
+              <point x="26.5" y="14.5" />
+            </edge>
+            <edge source="actionview" target="activesupport">
+              <point x="19.399999999999636" y="-14.5" />
+              <point x="1589.1680218587362" y="466.0" />
+              <point x="1619.1362763347756" y="466.0" />
+              <point x="1619.1362763347756" y="237.0" />
+              <point x="2922.612323329325" y="237.0" />
+              <point x="-55.05882352941171" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="formtastic_i18n">
+              <point x="-19.09090909090901" y="-14.5" />
+              <point x="3695.9335956079444" y="1301.0" />
+              <point x="3392.2120046988534" y="1301.0" />
+              <point x="31.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="kaminari-activerecord">
+              <point x="-12.817708333333485" y="-14.5" />
+              <point x="3382.76929636552" y="1590.0" />
+              <point x="2406.586276334776" y="1590.0" />
+              <point x="-41.25" y="14.5" />
+            </edge>
+            <edge source="i18n" target="concurrent-ruby">
+              <point x="0.0" y="-14.5" />
+              <point x="3603.022916666666" y="59.0" />
+              <point x="3512.3273968587364" y="59.0" />
+              <point x="16.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="mini_portile2">
+              <point x="-52.94270833333303" y="-14.5" />
+              <point x="3342.6442963655204" y="1950.0" />
+              <point x="0.0" y="1950.0" />
+              <point x="0.0" y="59.0" />
+              <point x="174.63344895382397" y="59.0" />
+              <point x="-27.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="chromedriver-helper">
+              <point x="-48.484375" y="-14.5" />
+              <point x="3347.1026296988534" y="1910.0" />
+              <point x="157.20998614445125" y="1910.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionpack">
+              <point x="-2.375" y="-14.5" />
+              <point x="2631.523776334776" y="1361.0" />
+              <point x="2297.033333333333" y="1361.0" />
+              <point x="2297.033333333333" y="1162.0" />
+              <point x="2202.086276334776" y="1162.0" />
+              <point x="2202.086276334776" y="804.0" />
+              <point x="2577.783333333333" y="804.0" />
+              <point x="-12.375" y="14.5" />
+            </edge>
+            <edge source="capybara" target="mini_mime">
+              <point x="12.571428571428442" y="-14.5" />
+              <point x="606.328224936949" y="1391.0" />
+              <point x="677.2343749999995" y="1391.0" />
+              <point x="677.2343749999995" y="1063.0" />
+              <point x="705.638657287157" y="1063.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rack-test">
+              <point x="-41.25" y="-14.5" />
+              <point x="2548.908333333333" y="575.0" />
+              <point x="461.3870694777838" y="575.0" />
+              <point x="29.333333333333258" y="14.5" />
+            </edge>
+            <edge source="railties" target="activesupport">
+              <point x="-14.400000000000091" y="-14.5" />
+              <point x="3727.200124131464" y="287.0" />
+              <point x="3005.2005586234427" y="287.0" />
+              <point x="27.529411764705856" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sprockets-rails">
+              <point x="-5.015625" y="-14.5" />
+              <point x="3390.5713796988534" y="1520.0" />
+              <point x="3168.2224213655204" y="1520.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="mimemagic">
+              <point x="17.276041666666515" y="-14.5" />
+              <point x="3412.86304636552" y="1630.0" />
+              <point x="4483.115246212121" y="1630.0" />
+              <point x="4483.115246212121" y="1053.0" />
+              <point x="4567.002250910975" y="1053.0" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="minitest">
+              <point x="-14.625" y="-14.5" />
+              <point x="2963.046146858737" y="128.0" />
+              <point x="2828.7849213655204" y="128.0" />
+              <point x="20.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sassc-rails">
+              <point x="7.244791666666515" y="-14.5" />
+              <point x="3402.83179636552" y="1540.0" />
+              <point x="3989.444959244308" y="1540.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="activejob" target="activesupport">
+              <point x="-21.75" y="-14.5" />
+              <point x="2280.086276334776" y="1053.0" />
+              <point x="2227.472421365521" y="1053.0" />
+              <point x="2227.472421365521" y="267.0" />
+              <point x="2943.2593821528544" y="267.0" />
+              <point x="-34.41176470588243" y="14.5" />
+            </edge>
+            <edge source="ransack" target="actionpack">
+              <point x="-10.0" y="-14.5" />
+              <point x="3581.022916666666" y="724.0" />
+              <point x="2627.283333333333" y="724.0" />
+              <point x="37.125" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rack">
+              <point x="-45.140625" y="-14.5" />
+              <point x="3350.4463796988534" y="1880.0" />
+              <point x="248.43915281111776" y="1880.0" />
+              <point x="248.43915281111776" y="476.0" />
+              <point x="546.9718752228141" y="476.0" />
+              <point x="-23.199999999999818" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="responders">
+              <point x="-11.703125" y="-14.5" />
+              <point x="3383.8838796988534" y="1580.0" />
+              <point x="2576.836276334776" y="1580.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="marcel" target="mimemagic">
+              <point x="0.0" y="-14.5" />
+              <point x="4140.694959244308" y="1043.0" />
+              <point x="4517.002250910975" y="1043.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="jbuilder">
+              <point x="33.994791666666515" y="-14.5" />
+              <point x="3429.58179636552" y="1780.0" />
+              <point x="5409.122042577641" y="1780.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="actionview" target="builder">
+              <point x="-38.80000000000018" y="-14.5" />
+              <point x="1530.9680218587364" y="456.0" />
+              <point x="69.70998614445125" y="456.0" />
+              <point x="18.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="execjs">
+              <point x="41.796875" y="-14.5" />
+              <point x="3437.3838796988534" y="1850.0" />
+              <point x="5910.49442027417" y="1850.0" />
+              <point x="5910.49442027417" y="1053.0" />
+              <point x="5901.818874131464" y="1053.0" />
+              <point x="8.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="bootstrap-sass">
+              <point x="37.338541666666515" y="-14.5" />
+              <point x="3432.92554636552" y="1810.0" />
+              <point x="5610.61942027417" y="1810.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="inherited_resources" target="has_scope">
+              <point x="-19.125" y="-14.5" />
+              <point x="2990.5974213655204" y="1192.0" />
+              <point x="3003.2753135254034" y="1192.0" />
+              <point x="3003.2753135254034" y="933.0" />
+              <point x="2347.283333333333" y="933.0" />
+              <point x="24.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="tinymce-rails">
+              <point x="5.015625" y="-14.5" />
+              <point x="3400.6026296988534" y="1520.0" />
+              <point x="3791.1339964349354" y="1520.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="has_scope" target="activesupport">
+              <point x="-24.25" y="-14.5" />
+              <point x="2298.783333333333" y="277.0" />
+              <point x="2950.141735094031" y="277.0" />
+              <point x="-27.529411764705856" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="tilt">
+              <point x="10.588541666666515" y="-14.5" />
+              <point x="3406.17554636552" y="1570.0" />
+              <point x="4163.600124131463" y="1570.0" />
+              <point x="12.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="bindex">
+              <point x="0.5572916666665151" y="-14.5" />
+              <point x="3396.14429636552" y="1480.0" />
+              <point x="3461.9620046988534" y="1480.0" />
+              <point x="-18.25" y="14.5" />
+            </edge>
+            <edge source="rails" target="actionview">
+              <point x="-11.875" y="-14.5" />
+              <point x="2622.023776334776" y="1381.0" />
+              <point x="2252.408333333333" y="1381.0" />
+              <point x="2252.408333333333" y="1182.0" />
+              <point x="2122.336276334776" y="1182.0" />
+              <point x="2122.336276334776" y="585.0" />
+              <point x="1577.8513551920696" y="585.0" />
+              <point x="8.08333333333303" y="14.5" />
+            </edge>
+            <edge source="actionview" target="erubi">
+              <point x="-19.399999999999636" y="-14.5" />
+              <point x="1550.368021858737" y="446.0" />
+              <point x="351.3037361444508" y="446.0" />
+              <point x="15.75" y="14.5" />
+            </edge>
+            <edge source="rails" target="actioncable">
+              <point x="-26.125" y="-14.5" />
+              <point x="2607.773776334776" y="1411.0" />
+              <point x="1438.7343749999995" y="1411.0" />
+              <point x="25.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="ruby_dep">
+              <point x="27.307291666666515" y="-14.5" />
+              <point x="3422.89429636552" y="1720.0" />
+              <point x="5101.261582464796" y="1720.0" />
+              <point x="5101.261582464796" y="1192.0" />
+              <point x="4899.606417577641" y="1192.0" />
+              <point x="-22.25" y="14.5" />
+            </edge>
+            <edge source="rails" target="sprockets-rails">
+              <point x="26.125" y="-14.5" />
+              <point x="2660.023776334776" y="1411.0" />
+              <point x="3126.889088032187" y="1411.0" />
+              <point x="-41.333333333333485" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activestorage">
+              <point x="-7.244791666666515" y="-14.5" />
+              <point x="3388.342213032187" y="1540.0" />
+              <point x="2884.4724213655204" y="1540.0" />
+              <point x="28.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="marcel">
+              <point x="12.817708333333485" y="-14.5" />
+              <point x="3408.404713032187" y="1590.0" />
+              <point x="4284.100124131463" y="1590.0" />
+              <point x="4284.100124131463" y="1202.0" />
+              <point x="4158.694959244308" y="1202.0" />
+              <point x="18.0" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="sass">
+              <point x="47.72727272727252" y="-14.5" />
+              <point x="3762.751777426126" y="1381.0" />
+              <point x="4787.261582464796" y="1381.0" />
+              <point x="-15.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="kaminari-core">
+              <point x="-19.505208333333485" y="-14.5" />
+              <point x="3376.08179636552" y="1650.0" />
+              <point x="1812.7180218587364" y="1650.0" />
+              <point x="1812.7180218587364" y="1063.0" />
+              <point x="1951.1571098909237" y="1063.0" />
+              <point x="-43.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="actionpack">
+              <point x="-21.734375" y="-14.5" />
+              <point x="3373.8526296988534" y="1670.0" />
+              <point x="1712.7180218587364" y="1670.0" />
+              <point x="1712.7180218587364" y="774.0" />
+              <point x="2553.033333333333" y="774.0" />
+              <point x="-37.125" y="14.5" />
+            </edge>
+            <edge source="archive-zip" target="io-like">
+              <point x="0.0" y="-14.5" />
+              <point x="-17.25" y="14.5" />
+            </edge>
+            <edge source="mail" target="mini_mime">
+              <point x="0.0" y="-14.5" />
+              <point x="1133.4843749999995" y="1033.0" />
+              <point x="737.305323953824" y="1033.0" />
+              <point x="31.66666666666697" y="14.5" />
+            </edge>
+            <edge source="activejob" target="globalid">
+              <point x="21.75" y="-14.5" />
+              <point x="2323.586276334776" y="973.0" />
+              <point x="2824.593744894932" y="973.0" />
+              <point x="-20.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="websocket-driver">
+              <point x="-35.109375" y="-14.5" />
+              <point x="3360.4776296988534" y="1790.0" />
+              <point x="981.2343749999995" y="1790.0" />
+              <point x="-34.75" y="14.5" />
+            </edge>
+            <edge source="activemodel" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="3298.8370046988534" y="307.0" />
+              <point x="2991.43585274109" y="307.0" />
+              <point x="13.764705882353155" y="14.5" />
+            </edge>
+            <edge source="coffee-script" target="coffee-script-source">
+              <point x="28.0" y="-14.5" />
+              <point x="5871.99442027417" y="1063.0" />
+              <point x="6041.4194204969845" y="1063.0" />
+              <point x="-40.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="arel">
+              <point x="-22.848958333333485" y="-14.5" />
+              <point x="3372.73804636552" y="1680.0" />
+              <point x="1575.8145833333324" y="1680.0" />
+              <point x="1575.8145833333324" y="754.0" />
+              <point x="2146.336276334776" y="754.0" />
+              <point x="-13.5" y="14.5" />
+            </edge>
+            <edge source="listen" target="rb-fsevent">
+              <point x="0.0" y="-14.5" />
+              <point x="5165.481417577641" y="1172.0" />
+              <point x="4976.856417577641" y="1172.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="websocket-extensions">
+              <point x="-41.796875" y="-14.5" />
+              <point x="3353.7901296988534" y="1850.0" />
+              <point x="343.06770833333303" y="1850.0" />
+              <point x="343.06770833333303" y="1063.0" />
+              <point x="485.3037361444508" y="1063.0" />
+              <point x="-42.75" y="14.5" />
+            </edge>
+            <edge source="capybara" target="nokogiri">
+              <point x="-25.142857142856883" y="-14.5" />
+              <point x="568.6139392226637" y="1401.0" />
+              <point x="377.5537361444508" y="1401.0" />
+              <point x="377.5537361444508" y="168.0" />
+              <point x="342.3870694777838" y="168.0" />
+              <point x="6.83333333333303" y="14.5" />
+            </edge>
+            <edge source="chromedriver-helper" target="nokogiri">
+              <point x="39.25" y="-14.5" />
+              <point x="196.45998614445125" y="158.0" />
+              <point x="315.0537361444508" y="158.0" />
+              <point x="-20.5" y="14.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="activesupport">
+              <point x="34.75" y="-14.5" />
+              <point x="1733.8862763347756" y="247.0" />
+              <point x="2929.4946762705017" y="247.0" />
+              <point x="-48.176470588235134" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="bundler">
+              <point x="-20.619791666666515" y="-14.5" />
+              <point x="3374.967213032187" y="1660.0" />
+              <point x="1742.9680218587364" y="1660.0" />
+              <point x="-19.75" y="14.5" />
+            </edge>
+            <edge source="sassc" target="rake">
+              <point x="-16.75" y="-14.5" />
+              <point x="5443.662121212121" y="1192.0" />
+              <point x="5736.5444204969845" y="1192.0" />
+              <point x="5736.5444204969845" y="794.0" />
+              <point x="4710.231417577641" y="794.0" />
+              <point x="21.75" y="14.5" />
+            </edge>
+            <edge source="rack-test" target="rack">
+              <point x="0.0" y="-14.5" />
+              <point x="432.0537361444508" y="486.0" />
+              <point x="558.571875222814" y="486.0" />
+              <point x="-11.599999999999909" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="actioncable">
+              <point x="-27.307291666666515" y="-14.5" />
+              <point x="3368.279713032187" y="1720.0" />
+              <point x="1387.7343749999995" y="1720.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="concurrent-ruby">
+              <point x="14.625" y="-14.5" />
+              <point x="2992.296146858737" y="49.0" />
+              <point x="3445.3273968587364" y="49.0" />
+              <point x="-50.25" y="14.5" />
+            </edge>
+            <edge source="loofah" target="nokogiri">
+              <point x="-17.75" y="-14.5" />
+              <point x="1171.9843749999995" y="158.0" />
+              <point x="356.0537361444508" y="158.0" />
+              <point x="20.5" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rails-dom-testing">
+              <point x="24.75" y="-14.5" />
+              <point x="2614.908333333333" y="615.0" />
+              <point x="2603.908333333333" y="615.0" />
+              <point x="2603.908333333333" y="406.0" />
+              <point x="1726.9362763347758" y="406.0" />
+              <point x="27.800000000000182" y="14.5" />
+            </edge>
+            <edge source="xpath" target="nokogiri">
+              <point x="0.0" y="-14.5" />
+              <point x="293.5537361444508" y="168.0" />
+              <point x="328.72040281111776" y="168.0" />
+              <point x="-6.83333333333303" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="kaminari">
+              <point x="-9.473958333333485" y="-14.5" />
+              <point x="3386.11304636552" y="1560.0" />
+              <point x="2699.836276334776" y="1560.0" />
+              <point x="-20.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rails-html-sanitizer">
+              <point x="-26.192708333333485" y="-14.5" />
+              <point x="3369.39429636552" y="1710.0" />
+              <point x="1474.7343749999995" y="1710.0" />
+              <point x="1474.7343749999995" y="486.0" />
+              <point x="1485.3029430014426" y="486.0" />
+              <point x="-49.33333333333303" y="14.5" />
+            </edge>
+            <edge source="websocket-driver" target="websocket-extensions">
+              <point x="0.0" y="-14.5" />
+              <point x="1015.9843749999995" y="1043.0" />
+              <point x="570.8037361444508" y="1043.0" />
+              <point x="42.75" y="14.5" />
+            </edge>
+            <edge source="activestorage" target="actionpack">
+              <point x="-38.33333333333303" y="-14.5" />
+              <point x="2817.3890880321874" y="1212.0" />
+              <point x="2806.586276334776" y="1212.0" />
+              <point x="2806.586276334776" y="943.0" />
+              <point x="2731.0894015575905" y="943.0" />
+              <point x="2731.0894015575905" y="824.0" />
+              <point x="2602.533333333333" y="824.0" />
+              <point x="12.375" y="14.5" />
+            </edge>
+            <edge source="uglifier" target="execjs">
+              <point x="0.0" y="-14.5" />
+              <point x="6048.49442027417" y="1053.0" />
+              <point x="5919.318874131464" y="1053.0" />
+              <point x="26.25" y="14.5" />
+            </edge>
+            <edge source="inherited_resources" target="railties">
+              <point x="57.375" y="-14.5" />
+              <point x="3067.0974213655204" y="1192.0" />
+              <point x="3072.6754901960785" y="1192.0" />
+              <point x="3072.6754901960785" y="1043.0" />
+              <point x="3723.6001241314634" y="1043.0" />
+              <point x="-18.0" y="14.5" />
+            </edge>
+            <edge source="sassc" target="ffi">
+              <point x="16.75" y="-14.5" />
+              <point x="5477.162121212121" y="1202.0" />
+              <point x="5747.5444204969845" y="1202.0" />
+              <point x="5747.5444204969845" y="824.0" />
+              <point x="5778.568874131464" y="824.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="web-console">
+              <point x="1.671875" y="-14.5" />
+              <point x="3397.2588796988534" y="1490.0" />
+              <point x="3543.397916666666" y="1490.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="bootstrap-sass" target="sassc">
+              <point x="-31.75" y="-14.5" />
+              <point x="5578.86942027417" y="1391.0" />
+              <point x="5482.745454545455" y="1391.0" />
+              <point x="22.33333333333337" y="14.5" />
+            </edge>
+            <edge source="capybara" target="addressable">
+              <point x="37.71428571428578" y="-14.5" />
+              <point x="631.4710820798064" y="1411.0" />
+              <point x="891.2343749999995" y="1411.0" />
+              <point x="-26.5" y="14.5" />
+            </edge>
+            <edge source="capybara" target="rack">
+              <point x="0.0" y="-14.5" />
+              <point x="593.7567963655206" y="1381.0" />
+              <point x="624.0537361444508" y="1381.0" />
+              <point x="624.0537361444508" y="486.0" />
+              <point x="570.1718752228139" y="486.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="web-console" target="railties">
+              <point x="41.625" y="-14.5" />
+              <point x="3585.022916666666" y="1411.0" />
+              <point x="3641.0245046988534" y="1411.0" />
+              <point x="3641.0245046988534" y="1053.0" />
+              <point x="3730.8001241314632" y="1053.0" />
+              <point x="-10.800000000000182" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activesupport">
+              <point x="38.453125" y="-14.5" />
+              <point x="3434.0401296988534" y="1820.0" />
+              <point x="5684.61942027417" y="1820.0" />
+              <point x="5684.61942027417" y="247.0" />
+              <point x="3032.7299703881486" y="247.0" />
+              <point x="55.05882352941171" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="ransack">
+              <point x="0.0" y="-14.5" />
+              <point x="3715.0245046988534" y="1172.0" />
+              <point x="3610.5245046988534" y="1172.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="activestorage" target="marcel">
+              <point x="38.33333333333303" y="-14.5" />
+              <point x="2894.0557546988534" y="1202.0" />
+              <point x="4122.694959244308" y="1202.0" />
+              <point x="-18.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sprockets">
+              <point x="-1.671875" y="-14.5" />
+              <point x="3393.9151296988534" y="1490.0" />
+              <point x="3287.2120046988534" y="1490.0" />
+              <point x="-11.625" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="formtastic">
+              <point x="-47.72727272727252" y="-14.5" />
+              <point x="3667.297231971581" y="1331.0" />
+              <point x="2123.4680218587364" y="1331.0" />
+              <point x="23.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="has_scope">
+              <point x="-15.046875" y="-14.5" />
+              <point x="3380.5401296988534" y="1610.0" />
+              <point x="2174.6010416666663" y="1610.0" />
+              <point x="2174.6010416666663" y="1192.0" />
+              <point x="2247.836276334776" y="1192.0" />
+              <point x="2247.836276334776" y="1063.0" />
+              <point x="2298.783333333333" y="1063.0" />
+              <point x="-24.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sqlite3">
+              <point x="9.473958333333485" y="-14.5" />
+              <point x="3405.060963032187" y="1560.0" />
+              <point x="4116.600124131463" y="1560.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="puma">
+              <point x="52.942708333333485" y="-14.5" />
+              <point x="3448.529713032187" y="1950.0" />
+              <point x="6338.04804079813" y="1950.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="coffee-rails" target="coffee-script">
+              <point x="25.5" y="-14.5" />
+              <point x="4570.115246212121" y="1212.0" />
+              <point x="5815.99442027417" y="1212.0" />
+              <point x="-28.0" y="14.5" />
+            </edge>
+            <edge source="actioncable" target="nio4r">
+              <point x="0.0" y="-14.5" />
+              <point x="1413.2343749999995" y="1202.0" />
+              <point x="1325.2343749999995" y="1202.0" />
+              <point x="16.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rb-fsevent">
+              <point x="21.734375" y="-14.5" />
+              <point x="3417.3213796988534" y="1670.0" />
+              <point x="4615.731417577641" y="1670.0" />
+              <point x="4615.731417577641" y="1063.0" />
+              <point x="4945.021496212121" y="1063.0" />
+              <point x="-32.333333333333485" y="14.5" />
+            </edge>
+            <edge source="formtastic" target="actionpack">
+              <point x="0.0" y="-14.5" />
+              <point x="2099.7180218587364" y="794.0" />
+              <point x="2569.533333333333" y="794.0" />
+              <point x="-20.625" y="14.5" />
+            </edge>
+            <edge source="jbuilder" target="activesupport">
+              <point x="-19.25" y="-14.5" />
+              <point x="5389.872042577641" y="257.0" />
+              <point x="3025.847617446972" y="257.0" />
+              <point x="48.176470588235134" y="14.5" />
+            </edge>
+            <edge source="spring-watcher-listen" target="listen">
+              <point x="-41.25" y="-14.5" />
+              <point x="4869.011582464796" y="1371.0" />
+              <point x="5149.231417577641" y="1371.0" />
+              <point x="-16.25" y="14.5" />
+            </edge>
+            <edge source="rails" target="activerecord">
+              <point x="7.125" y="-14.5" />
+              <point x="2641.023776334776" y="1341.0" />
+              <point x="2540.836276334776" y="1341.0" />
+              <point x="2540.836276334776" y="993.0" />
+              <point x="2936.9937448949318" y="993.0" />
+              <point x="-21.600000000000364" y="14.5" />
+            </edge>
+            <edge source="globalid" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="2844.593744894932" y="307.0" />
+              <point x="2970.7887939175603" y="307.0" />
+              <point x="-6.882352941176578" y="14.5" />
+            </edge>
+            <edge source="rails" target="activemodel">
+              <point x="11.875" y="-14.5" />
+              <point x="2645.773776334776" y="1381.0" />
+              <point x="2663.836276334776" y="1381.0" />
+              <point x="2663.836276334776" y="1013.0" />
+              <point x="3023.093744894932" y="1013.0" />
+              <point x="3023.093744894932" y="824.0" />
+              <point x="3285.7120046988534" y="824.0" />
+              <point x="-13.125" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="ransack">
+              <point x="2.786458333333485" y="-14.5" />
+              <point x="3398.373463032187" y="1500.0" />
+              <point x="3652.0245046988534" y="1500.0" />
+              <point x="3652.0245046988534" y="1192.0" />
+              <point x="3570.5245046988534" y="1192.0" />
+              <point x="-20.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="nokogiri">
+              <point x="-51.828125" y="-14.5" />
+              <point x="3343.7588796988534" y="1940.0" />
+              <point x="3.70998614445125" y="1940.0" />
+              <point x="3.70998614445125" y="148.0" />
+              <point x="301.3870694777838" y="148.0" />
+              <point x="-34.16666666666697" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="public_suffix">
+              <point x="-38.453125" y="-14.5" />
+              <point x="3357.1338796988534" y="1820.0" />
+              <point x="715.2343749999995" y="1820.0" />
+              <point x="715.2343749999995" y="1212.0" />
+              <point x="732.4234630321866" y="1212.0" />
+              <point x="-27.5" y="14.5" />
+            </edge>
+            <edge source="chromedriver-helper" target="archive-zip">
+              <point x="-39.25" y="-14.5" />
+              <point x="25.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="formtastic_i18n">
+              <point x="-0.5572916666665151" y="-14.5" />
+              <point x="3395.029713032187" y="1480.0" />
+              <point x="3329.2120046988534" y="1480.0" />
+              <point x="-31.5" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="arbre">
+              <point x="28.636363636363512" y="-14.5" />
+              <point x="3743.660868335217" y="1341.0" />
+              <point x="4037.6001241314634" y="1341.0" />
+              <point x="-16.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="minitest">
+              <point x="-8.359375" y="-14.5" />
+              <point x="3387.2276296988534" y="1550.0" />
+              <point x="2772.586276334776" y="1550.0" />
+              <point x="2772.586276334776" y="963.0" />
+              <point x="2788.2849213655204" y="963.0" />
+              <point x="-20.25" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="i18n">
+              <point x="43.875" y="-14.5" />
+              <point x="3021.546146858737" y="168.0" />
+              <point x="3584.022916666666" y="168.0" />
+              <point x="-19.0" y="14.5" />
+            </edge>
+            <edge source="web-console" target="bindex">
+              <point x="-41.625" y="-14.5" />
+              <point x="3501.772916666666" y="1411.0" />
+              <point x="3498.4620046988534" y="1411.0" />
+              <point x="18.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="concurrent-ruby">
+              <point x="49.598958333333485" y="-14.5" />
+              <point x="3445.185963032187" y="1920.0" />
+              <point x="6178.54804079813" y="1920.0" />
+              <point x="6178.54804079813" y="49.0" />
+              <point x="3545.8273968587364" y="49.0" />
+              <point x="50.25" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="activejob">
+              <point x="42.40000000000009" y="-14.5" />
+              <point x="1918.6180218587365" y="1202.0" />
+              <point x="2272.836276334776" y="1202.0" />
+              <point x="-29.0" y="14.5" />
+            </edge>
+            <edge source="actioncable" target="actionpack">
+              <point x="34.0" y="-14.5" />
+              <point x="1447.2343749999995" y="1192.0" />
+              <point x="1405.6718752228142" y="1192.0" />
+              <point x="1405.6718752228142" y="1063.0" />
+              <point x="1485.7343749999995" y="1063.0" />
+              <point x="1485.7343749999995" y="764.0" />
+              <point x="2544.783333333333" y="764.0" />
+              <point x="-45.375" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="archive-zip">
+              <point x="-49.59895833333303" y="-14.5" />
+              <point x="3345.9880463655204" y="1920.0" />
+              <point x="68.20998614445125" y="1920.0" />
+              <point x="-25.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="io-like">
+              <point x="-47.369791666666515" y="-14.5" />
+              <point x="3348.217213032187" y="1900.0" />
+              <point x="246.20998614445125" y="1900.0" />
+              <point x="246.20998614445125" y="1212.0" />
+              <point x="127.70998614445125" y="1212.0" />
+              <point x="17.25" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rack">
+              <point x="-8.25" y="-14.5" />
+              <point x="2581.908333333333" y="426.0" />
+              <point x="581.7718752228138" y="426.0" />
+              <point x="11.599999999999909" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rb-inotify">
+              <point x="31.765625" y="-14.5" />
+              <point x="3427.3526296988534" y="1760.0" />
+              <point x="5323.662121212121" y="1760.0" />
+              <point x="5323.662121212121" y="1063.0" />
+              <point x="5284.5548371636505" y="1063.0" />
+              <point x="30.0" y="14.5" />
+            </edge>
+            <edge source="activestorage" target="activerecord">
+              <point x="0.0" y="-14.5" />
+              <point x="2855.7224213655204" y="1212.0" />
+              <point x="2842.6197918894813" y="1212.0" />
+              <point x="2842.6197918894813" y="1003.0" />
+              <point x="2958.593744894932" y="1003.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="childprocess" target="rake">
+              <point x="0.0" y="-14.5" />
+              <point x="-7.25" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="sprockets">
+              <point x="-9.545454545454504" y="-14.5" />
+              <point x="3705.479050153399" y="1291.0" />
+              <point x="3689.010803072742" y="1291.0" />
+              <point x="3689.010803072742" y="1182.0" />
+              <point x="3310.4620046988534" y="1182.0" />
+              <point x="11.625" y="14.5" />
+            </edge>
+            <edge source="turbolinks" target="turbolinks-source">
+              <point x="0.0" y="-14.5" />
+              <point x="6237.04804079813" y="1411.0" />
+              <point x="6235.573579545455" y="1411.0" />
+              <point x="-35.5" y="14.5" />
+            </edge>
+            <edge source="rails" target="activesupport">
+              <point x="-7.125" y="-14.5" />
+              <point x="2626.773776334776" y="1371.0" />
+              <point x="2292.283333333333" y="1371.0" />
+              <point x="2292.283333333333" y="1172.0" />
+              <point x="2197.336276334776" y="1172.0" />
+              <point x="2197.336276334776" y="257.0" />
+              <point x="2936.377029211678" y="257.0" />
+              <point x="-41.29411764705901" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="activemodel">
+              <point x="36.0" y="-14.5" />
+              <point x="2994.593744894932" y="814.0" />
+              <point x="3259.4620046988534" y="814.0" />
+              <point x="-39.375" y="14.5" />
+            </edge>
+            <edge source="capybara" target="rack-test">
+              <point x="-12.571428571428442" y="-14.5" />
+              <point x="581.1853677940921" y="1391.0" />
+              <point x="432.0537361444508" y="1391.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="kaminari">
+              <point x="-38.18181818181802" y="-14.5" />
+              <point x="3676.8426865170354" y="1321.0" />
+              <point x="2741.336276334777" y="1321.0" />
+              <point x="20.750000000000455" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="i18n">
+              <point x="48.484375" y="-14.5" />
+              <point x="3444.0713796988534" y="1910.0" />
+              <point x="6177.433457464797" y="1910.0" />
+              <point x="6177.433457464797" y="168.0" />
+              <point x="3622.022916666666" y="168.0" />
+              <point x="19.0" y="14.5" />
+            </edge>
+            <edge source="inherited_resources" target="responders">
+              <point x="-57.375" y="-14.5" />
+              <point x="2952.3474213655204" y="1132.0" />
+              <point x="2627.836276334776" y="1132.0" />
+              <point x="25.5" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="2958.593744894932" y="317.0" />
+              <point x="2977.671146858737" y="317.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="actionview">
+              <point x="-23.963541666666515" y="-14.5" />
+              <point x="3371.623463032187" y="1690.0" />
+              <point x="1574.6999999999994" y="1690.0" />
+              <point x="1574.6999999999994" y="615.0" />
+              <point x="1529.3513551920696" y="615.0" />
+              <point x="-40.41666666666697" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="bootsnap">
+              <point x="44.026041666666515" y="-14.5" />
+              <point x="3439.61304636552" y="1870.0" />
+              <point x="5992.49442027417" y="1870.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="ransack" target="i18n">
+              <point x="30.0" y="-14.5" />
+              <point x="3620.5245046988534" y="1003.0" />
+              <point x="3603.022916666666" y="1003.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="responders" target="actionpack">
+              <point x="-25.5" y="-14.5" />
+              <point x="2576.836276334776" y="824.0" />
+              <point x="2594.283333333333" y="824.0" />
+              <point x="4.125" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="multi_json">
+              <point x="36.223958333333485" y="-14.5" />
+              <point x="3431.810963032187" y="1800.0" />
+              <point x="5536.61942027417" y="1800.0" />
+              <point x="5536.61942027417" y="1411.0" />
+              <point x="5584.412121212121" y="1411.0" />
+              <point x="23.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="loofah">
+              <point x="-32.880208333333485" y="-14.5" />
+              <point x="3362.70679636552" y="1770.0" />
+              <point x="1171.9843749999995" y="1770.0" />
+              <point x="-17.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="coffee-script">
+              <point x="40.682291666666515" y="-14.5" />
+              <point x="3436.26929636552" y="1840.0" />
+              <point x="5871.99442027417" y="1840.0" />
+              <point x="28.0" y="14.5" />
+            </edge>
+            <edge source="sass-listen" target="rb-fsevent">
+              <point x="-24.75" y="-14.5" />
+              <point x="5036.731417577641" y="1063.0" />
+              <point x="5009.688162878788" y="1063.0" />
+              <point x="32.33333333333337" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="jquery-rails">
+              <point x="19.09090909090901" y="-14.5" />
+              <point x="3734.1154137897624" y="1331.0" />
+              <point x="3757.4067237076624" y="1331.0" />
+              <point x="3757.4067237076624" y="1192.0" />
+              <point x="3891.319959244308" y="1192.0" />
+              <point x="-25.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="turbolinks-source">
+              <point x="51.828125" y="-14.5" />
+              <point x="3447.4151296988534" y="1940.0" />
+              <point x="6294.54804079813" y="1940.0" />
+              <point x="6294.54804079813" y="1411.0" />
+              <point x="6306.573579545455" y="1411.0" />
+              <point x="35.5" y="14.5" />
+            </edge>
+            <edge source="ransack" target="activerecord">
+              <point x="-30.0" y="-14.5" />
+              <point x="3560.5245046988534" y="893.0" />
+              <point x="3001.793744894932" y="893.0" />
+              <point x="43.19999999999982" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="ffi">
+              <point x="47.369791666666515" y="-14.5" />
+              <point x="3442.95679636552" y="1900.0" />
+              <point x="6171.9194204969845" y="1900.0" />
+              <point x="6171.9194204969845" y="824.0" />
+              <point x="5793.568874131464" y="824.0" />
+              <point x="15.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="xpath">
+              <point x="-42.91145833333303" y="-14.5" />
+              <point x="3352.6755463655204" y="1860.0" />
+              <point x="276.8037361444508" y="1860.0" />
+              <point x="-16.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rake">
+              <point x="32.880208333333485" y="-14.5" />
+              <point x="3428.467213032187" y="1770.0" />
+              <point x="5360.122042577641" y="1770.0" />
+              <point x="5360.122042577641" y="804.0" />
+              <point x="4695.731417577641" y="804.0" />
+              <point x="7.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="nio4r">
+              <point x="-29.536458333333485" y="-14.5" />
+              <point x="3366.05054636552" y="1740.0" />
+              <point x="1293.2343749999995" y="1740.0" />
+              <point x="-16.0" y="14.5" />
+            </edge>
+            <edge source="rails-dom-testing" target="nokogiri">
+              <point x="-34.75" y="-14.5" />
+              <point x="1664.3862763347756" y="148.0" />
+              <point x="369.72040281111776" y="148.0" />
+              <point x="34.16666666666697" y="14.5" />
+            </edge>
+            <edge source="actionview" target="rails-html-sanitizer">
+              <point x="0.0" y="-14.5" />
+              <point x="1569.7680218587366" y="436.0" />
+              <point x="1534.6362763347756" y="436.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="actionpack">
+              <point x="-41.333333333333485" y="-14.5" />
+              <point x="3127.4836468587364" y="734.0" />
+              <point x="2619.033333333333" y="734.0" />
+              <point x="28.875" y="14.5" />
+            </edge>
+            <edge source="listen" target="ruby_dep">
+              <point x="-21.666666666666686" y="-14.5" />
+              <point x="5143.814750910975" y="1182.0" />
+              <point x="4944.106417577641" y="1182.0" />
+              <point x="22.25" y="14.5" />
+            </edge>
+            <edge source="coffee-script" target="execjs">
+              <point x="-28.0" y="-14.5" />
+              <point x="5815.99442027417" y="1053.0" />
+              <point x="5884.318874131464" y="1053.0" />
+              <point x="-8.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="jquery-rails">
+              <point x="6.130208333333485" y="-14.5" />
+              <point x="3401.717213032187" y="1530.0" />
+              <point x="3925.351712163651" y="1530.0" />
+              <point x="3925.351712163651" y="1192.0" />
+              <point x="3941.819959244308" y="1192.0" />
+              <point x="25.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="kaminari-actionview">
+              <point x="-17.276041666666515" y="-14.5" />
+              <point x="3378.310963032187" y="1630.0" />
+              <point x="1939.7180218587364" y="1630.0" />
+              <point x="-38.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activemodel">
+              <point x="16.161458333333485" y="-14.5" />
+              <point x="3411.748463032187" y="1620.0" />
+              <point x="4481.502250910975" y="1620.0" />
+              <point x="4481.502250910975" y="704.0" />
+              <point x="3338.2120046988534" y="704.0" />
+              <point x="39.375" y="14.5" />
+            </edge>
+            <edge source="inherited_resources" target="actionpack">
+              <point x="19.125" y="-14.5" />
+              <point x="3028.8474213655204" y="1192.0" />
+              <point x="3034.093744894932" y="1192.0" />
+              <point x="3034.093744894932" y="744.0" />
+              <point x="2610.783333333333" y="744.0" />
+              <point x="20.625" y="14.5" />
+            </edge>
+            <edge source="kaminari-actionview" target="actionview">
+              <point x="-38.5" y="-14.5" />
+              <point x="1939.7180218587364" y="1053.0" />
+              <point x="1757.2180218587364" y="1053.0" />
+              <point x="1757.2180218587364" y="595.0" />
+              <point x="1561.6846885254035" y="595.0" />
+              <point x="-8.08333333333303" y="14.5" />
+            </edge>
+            <edge source="web-console" target="actionview">
+              <point x="13.875" y="-14.5" />
+              <point x="3557.272916666666" y="1411.0" />
+              <point x="3540.0245046988534" y="1411.0" />
+              <point x="3540.0245046988534" y="555.0" />
+              <point x="1610.1846885254035" y="555.0" />
+              <point x="40.41666666666697" y="14.5" />
+            </edge>
+            <edge source="rails" target="bundler">
+              <point x="-21.375" y="-14.5" />
+              <point x="2612.523776334776" y="1401.0" />
+              <point x="1782.4680218587364" y="1401.0" />
+              <point x="19.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="listen">
+              <point x="28.421875" y="-14.5" />
+              <point x="3424.0088796988534" y="1730.0" />
+              <point x="5181.731417577641" y="1730.0" />
+              <point x="16.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="autoprefixer-rails">
+              <point x="39.567708333333485" y="-14.5" />
+              <point x="3435.154713032187" y="1830.0" />
+              <point x="5798.61942027417" y="1830.0" />
+              <point x="34.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="uglifier">
+              <point x="45.140625" y="-14.5" />
+              <point x="3440.7276296988534" y="1880.0" />
+              <point x="6048.49442027417" y="1880.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="sass-listen" target="rb-inotify">
+              <point x="24.75" y="-14.5" />
+              <point x="5086.231417577641" y="1063.0" />
+              <point x="5224.5548371636505" y="1063.0" />
+              <point x="-30.0" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="railties">
+              <point x="9.545454545454504" y="-14.5" />
+              <point x="3724.569959244308" y="1063.0" />
+              <point x="3738.000124131464" y="1063.0" />
+              <point x="-3.599999999999909" y="14.5" />
+            </edge>
+            <edge source="spring-watcher-listen" target="spring">
+              <point x="41.25" y="-14.5" />
+              <point x="4951.511582464796" y="1381.0" />
+              <point x="5235.731417577641" y="1381.0" />
+              <point x="-17.75" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="actionpack">
+              <point x="21.199999999999818" y="-14.5" />
+              <point x="1897.4180218587362" y="1152.0" />
+              <point x="1768.2180218587364" y="1152.0" />
+              <point x="1768.2180218587364" y="784.0" />
+              <point x="2561.283333333333" y="784.0" />
+              <point x="-28.875" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="mail">
+              <point x="-33.994791666666515" y="-14.5" />
+              <point x="3361.592213032187" y="1780.0" />
+              <point x="1119.4843749999995" y="1780.0" />
+              <point x="-14.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="inherited_resources">
+              <point x="-6.130208333333485" y="-14.5" />
+              <point x="3389.45679636552" y="1530.0" />
+              <point x="2971.4724213655204" y="1530.0" />
+              <point x="-38.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="spring">
+              <point x="29.536458333333485" y="-14.5" />
+              <point x="3425.123463032187" y="1740.0" />
+              <point x="5271.231417577641" y="1740.0" />
+              <point x="17.75" y="14.5" />
+            </edge>
+            <edge source="sassc-rails" target="sprockets">
+              <point x="-19.59999999999991" y="-14.5" />
+              <point x="3970.0501241314637" y="1162.0" />
+              <point x="3333.7120046988534" y="1162.0" />
+              <point x="34.875" y="14.5" />
+            </edge>
+            <edge source="sass" target="sass-listen">
+              <point x="0.0" y="-14.5" />
+              <point x="4802.261582464796" y="1202.0" />
+              <point x="5036.731417577641" y="1202.0" />
+              <point x="-24.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="activerecord">
+              <point x="-2.786458333333485" y="-14.5" />
+              <point x="3392.80054636552" y="1500.0" />
+              <point x="3241.8370046988534" y="1500.0" />
+              <point x="3241.8370046988534" y="913.0" />
+              <point x="2980.1937448949325" y="913.0" />
+              <point x="21.600000000000364" y="14.5" />
+            </edge>
+            <edge source="sprockets" target="concurrent-ruby">
+              <point x="23.25" y="-14.5" />
+              <point x="3322.0870046988534" y="1013.0" />
+              <point x="3361.8370046988534" y="1013.0" />
+              <point x="3361.8370046988534" y="59.0" />
+              <point x="3478.8273968587364" y="59.0" />
+              <point x="-16.75" y="14.5" />
+            </edge>
+            <edge source="spring" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="5253.481417577641" y="1202.0" />
+              <point x="5349.122042577641" y="1202.0" />
+              <point x="5349.122042577641" y="267.0" />
+              <point x="3018.9652645057954" y="267.0" />
+              <point x="41.294117647058556" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="turbolinks">
+              <point x="50.713541666666515" y="-14.5" />
+              <point x="3446.30054636552" y="1930.0" />
+              <point x="6237.04804079813" y="1930.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="has_scope" target="actionpack">
+              <point x="24.25" y="-14.5" />
+              <point x="2347.283333333333" y="814.0" />
+              <point x="2586.033333333333" y="814.0" />
+              <point x="-4.125" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="thread_safe">
+              <point x="-30.651041666666515" y="-14.5" />
+              <point x="3364.935963032187" y="1750.0" />
+              <point x="1266.7343749999995" y="1750.0" />
+              <point x="-26.0" y="14.5" />
+            </edge>
+            <edge source="ransack" target="activesupport">
+              <point x="10.0" y="-14.5" />
+              <point x="3600.5245046988534" y="1013.0" />
+              <point x="3592.022916666666" y="1013.0" />
+              <point x="3592.022916666666" y="297.0" />
+              <point x="2998.318205682266" y="297.0" />
+              <point x="20.647058823529278" y="14.5" />
+            </edge>
+            <edge source="railties" target="method_source">
+              <point x="14.400000000000091" y="-14.5" />
+              <point x="3756.000124131464" y="814.0" />
+              <point x="4259.53241579813" y="814.0" />
+              <point x="-31.75" y="14.5" />
+            </edge>
+            <edge source="capybara" target="xpath">
+              <point x="-37.71428571428578" y="-14.5" />
+              <point x="556.0425106512348" y="1411.0" />
+              <point x="310.3037361444508" y="1411.0" />
+              <point x="16.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rubyzip">
+              <point x="11.703125" y="-14.5" />
+              <point x="3407.2901296988534" y="1580.0" />
+              <point x="4215.100124131463" y="1580.0" />
+              <point x="-19.5" y="14.5" />
+            </edge>
+            <edge source="tzinfo" target="thread_safe">
+              <point x="0.0" y="-14.5" />
+              <point x="1368.7343749999995" y="59.0" />
+              <point x="1318.7343749999995" y="59.0" />
+              <point x="26.0" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="rails-html-sanitizer">
+              <point x="8.25" y="-14.5" />
+              <point x="2598.408333333333" y="615.0" />
+              <point x="2592.908333333333" y="615.0" />
+              <point x="2592.908333333333" y="416.0" />
+              <point x="1583.9696096681087" y="416.0" />
+              <point x="49.33333333333303" y="14.5" />
+            </edge>
+            <edge source="kaminari-activerecord" target="kaminari-core">
+              <point x="-41.25" y="-14.5" />
+              <point x="2406.586276334776" y="963.0" />
+              <point x="2009.1571098909237" y="963.0" />
+              <point x="14.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="formtastic">
+              <point x="-16.161458333333485" y="-14.5" />
+              <point x="3379.42554636552" y="1620.0" />
+              <point x="2075.9680218587364" y="1620.0" />
+              <point x="-23.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="coffee-script-source">
+              <point x="46.255208333333485" y="-14.5" />
+              <point x="3441.842213032187" y="1890.0" />
+              <point x="6145.637667577641" y="1890.0" />
+              <point x="6145.637667577641" y="1063.0" />
+              <point x="6121.4194204969845" y="1063.0" />
+              <point x="40.0" y="14.5" />
+            </edge>
+            <edge source="selenium-webdriver" target="childprocess">
+              <point x="38.0" y="-14.5" />
+              <point x="4433.002250910975" y="1371.0" />
+              <point x="4653.731417577641" y="1371.0" />
+              <point x="-27.5" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="inherited_resources">
+              <point x="-28.636363636363512" y="-14.5" />
+              <point x="3686.38814106249" y="1311.0" />
+              <point x="3047.9724213655204" y="1311.0" />
+              <point x="38.25" y="14.5" />
+            </edge>
+            <edge source="activerecord" target="arel">
+              <point x="-36.0" y="-14.5" />
+              <point x="2922.593744894932" y="754.0" />
+              <point x="2173.336276334776" y="754.0" />
+              <point x="13.5" y="14.5" />
+            </edge>
+            <edge source="rails" target="activestorage">
+              <point x="21.375" y="-14.5" />
+              <point x="2655.273776334776" y="1401.0" />
+              <point x="2826.9724213655204" y="1401.0" />
+              <point x="-28.75" y="14.5" />
+            </edge>
+            <edge source="sassc-rails" target="tilt">
+              <point x="19.59999999999991" y="-14.5" />
+              <point x="4009.044959244308" y="1351.0" />
+              <point x="4139.600124131463" y="1351.0" />
+              <point x="-12.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="method_source">
+              <point x="20.619791666666515" y="-14.5" />
+              <point x="3416.20679636552" y="1660.0" />
+              <point x="4614.616834244308" y="1660.0" />
+              <point x="4614.616834244308" y="684.0" />
+              <point x="4323.03241579813" y="684.0" />
+              <point x="31.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="globalid">
+              <point x="-3.901041666666515" y="-14.5" />
+              <point x="3391.685963032187" y="1510.0" />
+              <point x="3240.7224213655204" y="1510.0" />
+              <point x="3240.7224213655204" y="923.0" />
+              <point x="2864.593744894932" y="923.0" />
+              <point x="20.0" y="14.5" />
+            </edge>
+            <edge source="bootsnap" target="msgpack">
+              <point x="0.0" y="-14.5" />
+              <point x="5992.49442027417" y="1411.0" />
+              <point x="5986.24442027417" y="1411.0" />
+              <point x="21.75" y="14.5" />
+            </edge>
+            <edge source="rails" target="railties">
+              <point x="16.625" y="-14.5" />
+              <point x="2650.523776334776" y="1391.0" />
+              <point x="2668.586276334776" y="1391.0" />
+              <point x="2668.586276334776" y="1033.0" />
+              <point x="3716.4001241314636" y="1033.0" />
+              <point x="-25.199999999999818" y="14.5" />
+            </edge>
+            <edge source="sassc-rails" target="sassc">
+              <point x="39.19999999999982" y="-14.5" />
+              <point x="4028.6449592443078" y="1391.0" />
+              <point x="5438.078787878788" y="1391.0" />
+              <point x="-22.33333333333337" y="14.5" />
+            </edge>
+            <edge source="jquery-rails" target="rails-dom-testing">
+              <point x="0.0" y="-14.5" />
+              <point x="3917.068371212121" y="386.0" />
+              <point x="1754.7362763347755" y="386.0" />
+              <point x="55.59999999999991" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="activesupport">
+              <point x="41.25" y="-14.5" />
+              <point x="2631.408333333333" y="605.0" />
+              <point x="2614.908333333333" y="605.0" />
+              <point x="2614.908333333333" y="287.0" />
+              <point x="2957.0240880352076" y="287.0" />
+              <point x="-20.647058823529278" y="14.5" />
+            </edge>
+            <edge source="arbre" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="4053.6001241314634" y="1212.0" />
+              <point x="4187.194959244308" y="1212.0" />
+              <point x="4187.194959244308" y="1063.0" />
+              <point x="4602.502250910975" y="1063.0" />
+              <point x="4602.502250910975" y="277.0" />
+              <point x="3012.0829115646193" y="277.0" />
+              <point x="34.41176470588243" y="14.5" />
+            </edge>
+            <edge source="bootstrap-sass" target="autoprefixer-rails">
+              <point x="31.75" y="-14.5" />
+              <point x="5642.36942027417" y="1411.0" />
+              <point x="5729.61942027417" y="1411.0" />
+              <point x="-34.5" y="14.5" />
+            </edge>
+            <edge source="listen" target="rb-inotify">
+              <point x="21.666666666666515" y="-14.5" />
+              <point x="5187.148084244308" y="1192.0" />
+              <point x="5256.84491579813" y="1192.0" />
+              <point x="5256.84491579813" y="1063.0" />
+              <point x="5254.5548371636505" y="1063.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="kaminari" target="activesupport">
+              <point x="31.125000000000455" y="-14.5" />
+              <point x="2751.711276334777" y="1212.0" />
+              <point x="2746.836276334777" y="1212.0" />
+              <point x="2746.836276334777" y="963.0" />
+              <point x="2760.4019015575905" y="963.0" />
+              <point x="2760.4019015575905" y="297.0" />
+              <point x="2963.9064409763837" y="297.0" />
+              <point x="-13.764705882353155" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="mini_mime">
+              <point x="-40.682291666666515" y="-14.5" />
+              <point x="3354.904713032187" y="1840.0" />
+              <point x="344.1822916666665" y="1840.0" />
+              <point x="344.1822916666665" y="1212.0" />
+              <point x="648.2343749999995" y="1212.0" />
+              <point x="648.2343749999995" y="1053.0" />
+              <point x="673.97199062049" y="1053.0" />
+              <point x="-31.66666666666697" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sass-listen">
+              <point x="30.651041666666515" y="-14.5" />
+              <point x="3426.23804636552" y="1750.0" />
+              <point x="5299.481417577641" y="1750.0" />
+              <point x="5299.481417577641" y="1162.0" />
+              <point x="5086.231417577641" y="1162.0" />
+              <point x="24.75" y="14.5" />
+            </edge>
+            <edge source="rb-inotify" target="ffi">
+              <point x="0.0" y="-14.5" />
+              <point x="5254.5548371636505" y="814.0" />
+              <point x="5763.568874131464" y="814.0" />
+              <point x="-15.0" y="14.5" />
+            </edge>
+            <edge source="jquery-rails" target="thor">
+              <point x="33.666666666666515" y="-14.5" />
+              <point x="3950.2366259109745" y="1063.0" />
+              <point x="3956.568371212121" y="1063.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="activeadmin" target="coffee-rails">
+              <point x="38.18181818181802" y="-14.5" />
+              <point x="3753.2063228806715" y="1361.0" />
+              <point x="4519.115246212121" y="1361.0" />
+              <point x="-25.5" y="14.5" />
+            </edge>
+            <edge source="sprockets" target="rack">
+              <point x="-23.25" y="-14.5" />
+              <point x="3275.5870046988534" y="903.0" />
+              <point x="3235.8370046988534" y="903.0" />
+              <point x="3235.8370046988534" y="396.0" />
+              <point x="593.3718752228137" y="396.0" />
+              <point x="23.199999999999818" y="14.5" />
+            </edge>
+            <edge source="rails" target="activejob">
+              <point x="2.375" y="-14.5" />
+              <point x="2636.273776334776" y="1351.0" />
+              <point x="2309.847421365521" y="1351.0" />
+              <point x="2309.847421365521" y="1212.0" />
+              <point x="2330.836276334776" y="1212.0" />
+              <point x="29.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="rails-dom-testing">
+              <point x="-25.078125" y="-14.5" />
+              <point x="3370.5088796988534" y="1700.0" />
+              <point x="1510.7680218587366" y="1700.0" />
+              <point x="1510.7680218587366" y="476.0" />
+              <point x="1643.5362763347757" y="476.0" />
+              <point x="-55.59999999999991" y="14.5" />
+            </edge>
+            <edge source="kaminari" target="kaminari-activerecord">
+              <point x="-10.374999999999545" y="-14.5" />
+              <point x="2710.211276334777" y="1142.0" />
+              <point x="2489.086276334776" y="1142.0" />
+              <point x="41.25" y="14.5" />
+            </edge>
+            <edge source="railties" target="rake">
+              <point x="28.800000000000182" y="-14.5" />
+              <point x="3770.4001241314636" y="824.0" />
+              <point x="4666.731417577641" y="824.0" />
+              <point x="-21.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="tzinfo">
+              <point x="-28.421875" y="-14.5" />
+              <point x="3367.1651296988534" y="1730.0" />
+              <point x="1351.7343749999995" y="1730.0" />
+              <point x="-17.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="actionmailer">
+              <point x="-18.390625" y="-14.5" />
+              <point x="3377.1963796988534" y="1640.0" />
+              <point x="1849.7180218587364" y="1640.0" />
+              <point x="-26.5" y="14.5" />
+            </edge>
+            <edge source="kaminari" target="kaminari-actionview">
+              <point x="-31.124999999999545" y="-14.5" />
+              <point x="2689.461276334777" y="1152.0" />
+              <point x="2016.7180218587364" y="1152.0" />
+              <point x="38.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="thor">
+              <point x="19.505208333333485" y="-14.5" />
+              <point x="3415.092213032187" y="1650.0" />
+              <point x="4613.502250910975" y="1650.0" />
+              <point x="4613.502250910975" y="694.0" />
+              <point x="3975.901704545454" y="694.0" />
+              <point x="19.333333333333485" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="actionview">
+              <point x="-21.199999999999818" y="-14.5" />
+              <point x="1855.0180218587366" y="1172.0" />
+              <point x="1586.8145833333324" y="1172.0" />
+              <point x="1586.8145833333324" y="605.0" />
+              <point x="1545.5180218587366" y="605.0" />
+              <point x="-24.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="msgpack">
+              <point x="42.911458333333485" y="-14.5" />
+              <point x="3438.498463032187" y="1860.0" />
+              <point x="5936.49442027417" y="1860.0" />
+              <point x="5936.49442027417" y="1411.0" />
+              <point x="5942.74442027417" y="1411.0" />
+              <point x="-21.75" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sassc">
+              <point x="35.109375" y="-14.5" />
+              <point x="3430.6963796988534" y="1790.0" />
+              <point x="5458.122042577641" y="1790.0" />
+              <point x="5458.122042577641" y="1391.0" />
+              <point x="5460.412121212121" y="1391.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="regexp_parser">
+              <point x="-37.338541666666515" y="-14.5" />
+              <point x="3358.248463032187" y="1810.0" />
+              <point x="814.9843749999995" y="1810.0" />
+              <point x="29.75" y="14.5" />
+            </edge>
+            <edge source="responders" target="railties">
+              <point x="25.5" y="-14.5" />
+              <point x="2627.836276334776" y="1023.0" />
+              <point x="3709.200124131464" y="1023.0" />
+              <point x="-32.40000000000009" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="sass">
+              <point x="23.963541666666515" y="-14.5" />
+              <point x="3419.55054636552" y="1690.0" />
+              <point x="4817.261582464796" y="1690.0" />
+              <point x="15.0" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="sprockets">
+              <point x="41.333333333333485" y="-14.5" />
+              <point x="3209.555754698854" y="1192.0" />
+              <point x="3263.9620046988534" y="1192.0" />
+              <point x="-34.875" y="14.5" />
+            </edge>
+            <edge source="railties" target="thor">
+              <point x="0.0" y="-14.5" />
+              <point x="3741.6001241314634" y="804.0" />
+              <point x="3937.235037878787" y="804.0" />
+              <point x="-19.333333333333485" y="14.5" />
+            </edge>
+            <edge source="kaminari-activerecord" target="activerecord">
+              <point x="41.25" y="-14.5" />
+              <point x="2489.086276334776" y="983.0" />
+              <point x="2915.3937448949323" y="983.0" />
+              <point x="-43.19999999999982" y="14.5" />
+            </edge>
+            <edge source="actionpack" target="actionview">
+              <point x="-24.75" y="-14.5" />
+              <point x="2565.408333333333" y="565.0" />
+              <point x="1594.0180218587366" y="565.0" />
+              <point x="24.25" y="14.5" />
+            </edge>
+            <edge source="kaminari-actionview" target="kaminari-core">
+              <point x="38.5" y="-14.5" />
+              <point x="2016.7180218587364" y="1063.0" />
+              <point x="1980.1571098909237" y="1063.0" />
+              <point x="-14.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="erubi">
+              <point x="-46.25520833333303" y="-14.5" />
+              <point x="3349.3317963655204" y="1890.0" />
+              <point x="247.32456947778473" y="1890.0" />
+              <point x="247.32456947778473" y="466.0" />
+              <point x="319.8037361444508" y="466.0" />
+              <point x="-15.75" y="14.5" />
+            </edge>
+            <edge source="activesupport" target="tzinfo">
+              <point x="-43.875" y="-14.5" />
+              <point x="2933.796146858737" y="138.0" />
+              <point x="1385.7343749999995" y="138.0" />
+              <point x="17.0" y="14.5" />
+            </edge>
+            <edge source="jbuilder" target="multi_json">
+              <point x="19.25" y="-14.5" />
+              <point x="5428.372042577641" y="1401.0" />
+              <point x="5537.412121212121" y="1401.0" />
+              <point x="-23.5" y="14.5" />
+            </edge>
+            <edge source="actionmailer" target="mail">
+              <point x="-42.40000000000009" y="-14.5" />
+              <point x="1833.8180218587363" y="1182.0" />
+              <point x="1147.4843749999995" y="1182.0" />
+              <point x="14.0" y="14.5" />
+            </edge>
+            <edge source="coffee-rails" target="railties">
+              <point x="-25.5" y="-14.5" />
+              <point x="4519.115246212121" y="1023.0" />
+              <point x="3774.000124131464" y="1023.0" />
+              <point x="32.40000000000009" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="coffee-rails">
+              <point x="18.390625" y="-14.5" />
+              <point x="3413.9776296988534" y="1640.0" />
+              <point x="4570.115246212121" y="1640.0" />
+              <point x="25.5" y="14.5" />
+            </edge>
+            <edge source="rails-html-sanitizer" target="loofah">
+              <point x="0.0" y="-14.5" />
+              <point x="1534.6362763347756" y="317.0" />
+              <point x="1207.4843749999995" y="317.0" />
+              <point x="17.75" y="14.5" />
+            </edge>
+            <edge source="sprockets-rails" target="activesupport">
+              <point x="0.0" y="-14.5" />
+              <point x="3168.2224213655204" y="1192.0" />
+              <point x="3153.619791889481" y="1192.0" />
+              <point x="3153.619791889481" y="317.0" />
+              <point x="2984.5534997999134" y="317.0" />
+              <point x="6.882352941176578" y="14.5" />
+            </edge>
+            <edge source="sassc-rails" target="railties">
+              <point x="0.0" y="-14.5" />
+              <point x="3989.444959244308" y="1331.0" />
+              <point x="3985.6433712121207" y="1331.0" />
+              <point x="3985.6433712121207" y="1043.0" />
+              <point x="3759.6001241314634" y="1043.0" />
+              <point x="18.0" y="14.5" />
+            </edge>
+            <edge source="tinymce-rails" target="railties">
+              <point x="0.0" y="-14.5" />
+              <point x="3790.569959244308" y="1063.0" />
+              <point x="3745.200124131464" y="1063.0" />
+              <point x="3.599999999999909" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="addressable">
+              <point x="-36.223958333333485" y="-14.5" />
+              <point x="3359.36304636552" y="1800.0" />
+              <point x="944.2343749999995" y="1800.0" />
+              <point x="26.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="builder">
+              <point x="-50.713541666666515" y="-14.5" />
+              <point x="3344.873463032187" y="1930.0" />
+              <point x="32.70998614445125" y="1930.0" />
+              <point x="-18.5" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="crass">
+              <point x="-31.765625" y="-14.5" />
+              <point x="3363.8213796988534" y="1760.0" />
+              <point x="1235.7343749999995" y="1760.0" />
+              <point x="1235.7343749999995" y="168.0" />
+              <point x="1239.9843749999995" y="168.0" />
+              <point x="16.25" y="14.5" />
+            </edge>
+            <edge source="loofah" target="crass">
+              <point x="17.75" y="-14.5" />
+              <point x="-16.25" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="capybara">
+              <point x="-39.56770833333303" y="-14.5" />
+              <point x="3356.0192963655204" y="1830.0" />
+              <point x="593.7567963655206" y="1830.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="jquery-rails" target="railties">
+              <point x="-33.666666666666515" y="-14.5" />
+              <point x="3882.9032925776414" y="1053.0" />
+              <point x="3752.4001241314636" y="1053.0" />
+              <point x="10.800000000000182" y="14.5" />
+            </edge>
+            <edge source="web-console" target="activemodel">
+              <point x="-13.875" y="-14.5" />
+              <point x="3529.0245046988534" y="824.0" />
+              <point x="3311.9620046988534" y="824.0" />
+              <point x="13.125" y="14.5" />
+            </edge>
+            <edge source="railties" target="actionpack">
+              <point x="-28.800000000000182" y="-14.5" />
+              <point x="3712.8001241314632" y="714.0" />
+              <point x="2635.533333333333" y="714.0" />
+              <point x="45.375" y="14.5" />
+            </edge>
+            <edge source="#TourAgency" target="railties">
+              <point x="13.932291666666515" y="-14.5" />
+              <point x="3409.51929636552" y="1600.0" />
+              <point x="4308.502250910975" y="1600.0" />
+              <point x="4308.502250910975" y="1033.0" />
+              <point x="3766.8001241314632" y="1033.0" />
+              <point x="25.199999999999818" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4788298206983328" x="2531.2219156484034" y="481.22191564840364" />
+          <SelectedNodes>
+            <node>#TourAgency</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://RailsDependency/Tour">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>RailsDependency</ID>
+          <OriginalElement>Tour</OriginalElement>
+          <nodes>
+            <node x="0.0" y="79.0">TourOrder</node>
+            <node x="210.00000000000003" y="269.0">Tour</node>
+            <node x="234.00000000000003" y="0.0">ApplicationRecord</node>
+            <node x="212.00000000000003" y="90.0">Shedule</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Tour" target="TourOrder">
+              <point x="-64.0" y="-59.0" />
+              <point x="242.00000000000003" y="244.0" />
+              <point x="96.0" y="244.0" />
+              <point x="0.0" y="70.0" />
+            </edge>
+            <edge source="Tour" target="ApplicationRecord">
+              <point x="64.0" y="-59.0" />
+              <point x="370.0" y="244.0" />
+              <point x="410.5" y="244.0" />
+              <point x="410.5" y="54.0" />
+              <point x="354.0" y="54.0" />
+              <point x="48.00000000000001" y="14.5" />
+            </edge>
+            <edge source="TourOrder" target="ApplicationRecord">
+              <point x="0.0" y="-70.0" />
+              <point x="96.0" y="54.0" />
+              <point x="258.0" y="54.0" />
+              <point x="-48.0" y="14.5" />
+            </edge>
+            <edge source="Tour" target="Shedule">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="59.0" />
+            </edge>
+            <edge source="Shedule" target="ApplicationRecord">
+              <point x="0.0" y="-59.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-123.0" y="11.5" />
+          <SelectedNodes>
+            <node>Tour</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Association fields</Category>
+            <Category>Migration fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shedules/_menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tour_order.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tours/new.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="663">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tours/edit.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/shedules_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="686">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shedules/new.html.erb">
+    <entry file="das://e46fa6e1-e223-48aa-ac4c-518983766964/schema/main/table/tour_orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tour_orders_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="571">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/_menu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shedules/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tours/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="44" column="37" lean-forward="true" selection-start-line="44" selection-start-column="37" selection-end-line="44" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shedules/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shedules/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="50" column="48" lean-forward="true" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shedules/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shedules/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tours/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tours/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tours/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>

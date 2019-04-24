@@ -1,0 +1,38 @@
+<%= render 'layouts/mainmenu' %>
+<div class="container">
+  <div class="page-header" id="banner">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>Записи на экскурсию</h1>
+        <table class="table table-hover table-bordered">
+          <tr>
+            <th>Клиент</th>
+            <th>Название</th>
+            <th>Номер телефона</th>
+            <th>Электронный адрес</th>
+            <th>Дата</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+          <% @tour_orders.each do |tour_order| %>
+            <tr>
+              <td><%= tour_order.customer %></td>
+              <td><%= tour_order.tour.title %></td>
+              <td><%= tour_order.cellphone %></td>
+              <td><%= tour_order.email %></td>
+              <td><%= tour_order.custdatetour %></td>
+              <td><%= link_to 'Показать', tour_order_path(tour_order) %></td>
+              <td><%= link_to 'Редактировать', edit_tour_order_path(tour_order) %></td>
+              <td><%= link_to 'Удалить', tour_order_path(tour_order),
+                              method: :delete,
+                              data: {confirm: 'Вы уверены?'} %></td>
+            </tr>
+          <% end %>
+        </table>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
+    </div>
+  </div>
+</div>

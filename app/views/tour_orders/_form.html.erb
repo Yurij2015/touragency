@@ -1,0 +1,49 @@
+<%= form_with model: @tour_order, local: true do |form| %>
+
+  <% if @tour_order.errors.any? %>
+    <div id="error_explanation">
+      <h4 style="color: #B00100">
+        <%= pluralize(@tour_order.errors.count, "error") %> prohibited this sheduleitem from being saved:
+      </h4>
+      <ul>
+        <% @tour_order.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-group">
+  </div>
+
+  <div class="form-group">
+    <%= form.label :customer %><br>
+    <%= form.text_field :customer, class: "form-control" %><br>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :cellphone %><br>
+    <%= form.phone_field :cellphone, class: "form-control" %><br>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :email %><br>
+    <%= form.email_field :email, class: "form-control" %><br>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :custdatetour %><br>
+    <%= form.date_field :custdatetour, class: "form-control" %><br>
+  </div>
+
+  <div class="form-group">
+    <%= form.label :tour_id %><br>
+    <%#= form.collection_select :tour, Tour.all,:id,:title, {}, {class: 'form-control'} %>
+    <%= form.collection_select :tour_id, Tour.all, :id, :title, {prompt: "Выберите экскурсию"}, {class: 'form-control'} %>
+  </div>
+
+  <div class="form-group">
+    <%= form.submit :class => "btn btn-primary" %>
+  </div>
+
+<% end %>

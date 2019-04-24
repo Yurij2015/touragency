@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer: MyString
+  cellphone: MyString
+  email: MyString
+  custdatetour: 2019-04-24 10:06:54
+  tour: one
+
+two:
+  customer: MyString
+  cellphone: MyString
+  email: MyString
+  custdatetour: 2019-04-24 10:06:54
+  tour: two

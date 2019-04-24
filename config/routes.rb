@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :tours
   resources :shedules
   resources :tour_orders
+  resources :users
   # root 'tour_agency#index'
   root 'tours#index'
 

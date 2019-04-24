@@ -1,0 +1,19 @@
+<%= render 'layouts/mainmenu' %>
+<div class="container">
+  <div class="page-header" id="banner">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1>User page</h1>
+
+        <%= @user.name %>, <%= @user.email %>
+        <% provide(:title, @user.name) %>
+        <h1>
+          <%= gravatar_for @user %>
+          <%= @user.name %>
+        </h1>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-5 col-sm-6">
+    </div>
+  </div>
+</div>

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3069c93-6389-4154-92c0-109e78a14407" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/shedules/_form.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shedules/edit.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shedules/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shedules/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/shedules/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/shedules_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/shedules_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/tour.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/tour.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shedules/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shedules/_form.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -95,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shedules/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="540">
+              <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -504,12 +496,12 @@
       <updated>1555484405965</updated>
       <workItem from="1555484407715" duration="7769000" />
       <workItem from="1555967809993" duration="24156000" />
-      <workItem from="1556076511880" duration="1550000" />
+      <workItem from="1556076511880" duration="1790000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33475000" />
+    <option name="totallyTimeSpent" value="33715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -520,7 +512,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297244" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23518851" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23518851" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -528,7 +520,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1983842" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1983842" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.17814961" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32944345" />
@@ -751,8 +743,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shedules/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="540">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
         </state>
       </provider>
     </entry>

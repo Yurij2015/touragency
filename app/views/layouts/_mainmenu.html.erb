@@ -14,21 +14,23 @@
           <%= link_to 'Экскурсии', controller: 'tours' %>
         </li>
         <li>
-          <%= link_to 'Добавить экскурсию', new_tour_path %>
-        </li>
-        <li>
-          <%= link_to 'Добавить запись в расписание', new_shedule_path %>
-        </li>
-        <li>
           <%= link_to 'Запись на экскурсию', new_tour_order_path %>
         </li>
         <li>
           <%= link_to 'Расписание экскурсий', shedules_path %>
         </li>
+        <% if logged_in? %>
+          <li>
+            <%= link_to 'Добавить экскурсию', new_tour_path %>
+          </li>
+          <li>
+            <%= link_to 'Добавить запись в расписание', new_shedule_path %>
+          </li>
+        <% end %>
       </ul>
-<!--      <ul class="nav navbar-nav navbar-right">-->
-<!--        <li><%#= link_to "Регистрация", signup_path %></li>-->
-<!--      </ul>-->
+      <!--      <ul class="nav navbar-nav navbar-right">-->
+      <!--        <li><%#= link_to "Регистрация", signup_path %></li>-->
+      <!--      </ul>-->
       <ul class="nav navbar-nav navbar-right">
         <% if logged_in? %>
           <li class="dropdown">

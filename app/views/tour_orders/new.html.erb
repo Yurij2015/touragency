@@ -5,7 +5,9 @@
       <div class="col-lg-12">
         <h1>Добавить запись в расписание</h1>
         <%= render 'form' %>
-        <%= link_to 'К списку записей на экскурсию', tour_orders_path %>
+        <% if logged_in? %>
+          <%= link_to 'К списку записей на экскурсию', tour_orders_path %>
+        <% end %>
       </div>
     </div>
     <div class="col-lg-4 col-md-5 col-sm-6">

@@ -19,8 +19,11 @@
           <strong>Дата:</strong>
           <%= @tour_order.custdatetour %>
         </p>
-        <%= link_to 'Редактировать', edit_tour_order_path(@tour_order) %> |
-        <%= link_to 'К списку записей', tour_orders_path %>
+        <% if logged_in? %>
+          <%= link_to 'Редактировать', edit_tour_order_path(@tour_order) %> |
+          <%= link_to 'К списку записей', tour_orders_path %>
+        <% end %>
+
       </div>
     </div>
     <div class="col-lg-4 col-md-5 col-sm-6">

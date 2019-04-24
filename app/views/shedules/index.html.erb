@@ -16,6 +16,15 @@
         <li>
           <%= link_to 'Добавить экскурсию', new_tour_path %>
         </li>
+        <li>
+          <%= link_to 'Добавить запись в расписание', new_shedule_path %>
+        </li>
+        <li>
+          <%= link_to 'Запись на экскурсию', new_tour_path %>
+        </li>
+        <li>
+          <%= link_to 'Расписание экскурсий', shedules_path %>
+        </li>
       </ul>
     </div>
   </div>
@@ -28,8 +37,9 @@
         <table class="table table-hover table-bordered">
           <tr>
             <th>Название</th>
-            <th>Описание</th>
-            <th></th>
+            <th>Дата</th>
+            <th>Количество мест</th>
+            <th>Стоимость, р</th>
             <th></th>
             <th></th>
             <th></th>
@@ -39,6 +49,7 @@
               <td><%= shedule.tour.title %></td>
               <td><%= shedule.datetimetour %></td>
               <td><%= shedule.countplace %></td>
+              <td><%= shedule.tourcost %></td>
               <td><%= link_to 'Показать', shedule_path(shedule) %></td>
               <td><%= link_to 'Редактировать', edit_shedule_path(shedule) %></td>
               <td><%= link_to 'Удалить', shedule_path(shedule),

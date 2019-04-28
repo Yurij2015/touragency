@@ -249,12 +249,16 @@
       <Position>7</Position>
       <DataType>varchar|0s</DataType>
     </column>
-    <index id="64" parent="13" name="index_users_on_email">
+    <column id="64" parent="13" name="admin">
+      <Position>8</Position>
+      <DataType>boolean|0s</DataType>
+    </column>
+    <index id="65" parent="13" name="index_users_on_email">
       <ColNames>email</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="65" parent="13">
+    <key id="66" parent="13">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>

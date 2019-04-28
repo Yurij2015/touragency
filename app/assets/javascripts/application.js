@@ -17,4 +17,5 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require datetime_picker_input
 //= require_tree .

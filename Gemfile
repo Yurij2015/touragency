@@ -23,7 +23,7 @@ gem 'tinymce-rails'
 gem 'activeadmin'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-
+gem 'datetime_picker_input'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

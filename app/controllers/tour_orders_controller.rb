@@ -11,7 +11,7 @@ class TourOrdersController < ApplicationController
   end
 
   def new
-    @tour_order = TourOrder.new
+    t@tour_order = TourOrder.new
   end
 
   def edit

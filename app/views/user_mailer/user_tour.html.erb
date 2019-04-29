@@ -1,6 +1,11 @@
 <h1>TourAgency</h1>
 
-<p>Добрый день, <%= @user.name %>!</p>
-
-
+<h4>Добрый день, <%= @user.name %>!</h4>
 <p> Поздравляем, Вы записаны на экскурсию!</p>
+<p>
+  <%= @tour_order.tour.title %>
+</p>
+<p>
+  <%= @tour_order.custdatetour %>
+</p>
+

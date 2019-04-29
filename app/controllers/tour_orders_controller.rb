@@ -23,6 +23,8 @@ class TourOrdersController < ApplicationController
   def create
     @tour_order = TourOrder.new(tour_order_params)
     if @tour_order.save
+      UserMailer.with(user: @user).user_tour.deliver_later
+      flash[:danger] = "Сообщение о записи на экскурсию отправлено на ваш эл. адрес"
       redirect_to @tour_order
     else
       render 'new'

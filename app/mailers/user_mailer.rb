@@ -5,9 +5,15 @@ class UserMailer < ApplicationMailer
   #
   #   en.user_mailer.user_tour.subject
   #
-  def user_tour
-    @greeting = "Hi"
 
-    mail to: "to@example.org"
+  def user_tour(user)
+    @user = user
+    mail to: user.email, subject: "Запись на экскурсию"
   end
+
+    # def user_tour
+    #   @greeting = "Hi"
+    #
+    #   mail to: "to@example.org"
+    # end
 end

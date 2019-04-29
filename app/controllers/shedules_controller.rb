@@ -1,5 +1,7 @@
 class ShedulesController < ApplicationController
   before_action :logged_in_user, only: [:edit, :update]
+  before_action :admin_user, only: [:edit, :create, :update, :destroy]
+
 
 
   def index
@@ -59,6 +61,12 @@ class ShedulesController < ApplicationController
       flash[:danger] = "Пожалуйста войдите в систему."
       redirect_to login_url
     end
+  end
+
+  # Подтверждает администратора.
+  def admin_user
+    flash[:danger] = "У Вас нет прав на действия с расписанием"
+    redirect_to(shedules_url) unless current_user.admin?
   end
 
 end

@@ -48,6 +48,7 @@ ru:
   admin: "Администратор"
   tour_id: "Экскурсия"
   tour_order: "Заказ тура"
+  password: "Пароль"
   activerecord:
     errors:
       messages:
@@ -59,6 +60,7 @@ ru:
       tour_order: "Заказ на тур"
       tour: "Тур"
       shedule: "Расписание"
+      user: "Пользователь"
     attributes:
       tour:
         title: "Название"
@@ -68,6 +70,11 @@ ru:
         countplace: "Количество мест"
         tourcost: "Стоимость тура"
         tour_id: "Название тура"
+      user:
+        name: "Имя пользователя"
+        email: "Электронная почта"
+        password: "Пароль"
+        password_confirmation: "Повторить пароль"
   date:
     abbr_day_names:
       - Вс

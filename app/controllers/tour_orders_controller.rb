@@ -1,5 +1,7 @@
 class TourOrdersController < ApplicationController
   before_action :logged_in_user, only: [:edit, :update]
+  before_action :admin_user, only: [:edit, :update, :destroy]
+
 
 
   def index
@@ -27,6 +29,11 @@ class TourOrdersController < ApplicationController
     end
   end
 
+  # # Отправляет электронное письмо о записи на экскурсию
+  # def send_tourorder_email
+  #   UserMailer.user_tour(@tour_order).deliver_now
+  # end
+
   def update
     @tour_order = TourOrder.find(params[:id])
 
@@ -41,7 +48,8 @@ class TourOrdersController < ApplicationController
     @tour_order = TourOrder.find(params[:id])
     @tour_order.destroy
 
-    redirect_to tour_order_path
+    # redirect_to tour_order_path
+    redirect_to @tour_order
   end
 
   private
@@ -59,6 +67,12 @@ class TourOrdersController < ApplicationController
       flash[:danger] = "Пожалуйста войдите в систему."
       redirect_to login_url
     end
+  end
+
+  # Подтверждает администратора.
+  def admin_user
+    flash[:danger] = "У Вас нет прав на действия со списком записей на экскурсию"
+    redirect_to(tour_orders_url) unless current_user.admin?
   end
 
 end

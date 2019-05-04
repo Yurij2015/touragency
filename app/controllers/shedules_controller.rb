@@ -65,7 +65,7 @@ class ShedulesController < ApplicationController
 
   # Подтверждает администратора.
   def admin_user
-    flash[:danger] = "У Вас нет прав на действия с расписанием"
+    flash[:danger] = "У Вас нет прав на действия с расписанием" unless current_user.admin?
     redirect_to(shedules_url) unless current_user.admin?
   end
 

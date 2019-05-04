@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3069c93-6389-4154-92c0-109e78a14407" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tour_orders_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tour_orders_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tour_orders/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tour_orders/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tours/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tours/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/user_tour.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/user_tour.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tours_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tours_controller.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -25,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TourAgency@Development__TourAgency.rcov" NAME="Development: TourAgency Coverage Results" MODIFIED="1556524830561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TourAgency" />
+    <SUITE FILE_PATH="coverage/TourAgency@Development__TourAgency.rcov" NAME="Development: TourAgency Coverage Results" MODIFIED="1557004935915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TourAgency" />
     <SUITE FILE_PATH="coverage/TourAgency@Production__TourAgency.rcov" NAME="Production: TourAgency Coverage Results" MODIFIED="1556470677828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="TourAgency" />
   </component>
   <component name="DatabaseView">
@@ -87,84 +83,21 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.text.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="12" selection-start-line="5" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/tour_orders_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tour_orders/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <entry file="das://e46fa6e1-e223-48aa-ac4c-518983766964/schema/main/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="das://e46fa6e1-e223-48aa-ac4c-518983766964/schema/main/table/tour_orders">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/app/controllers/tours_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -218,7 +151,6 @@
         <option value="$PROJECT_DIR$/app/views/shedules/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/shedules_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/tours/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/tours_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/tour_orders/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_mainmenu.html.erb" />
         <option value="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" />
@@ -228,6 +160,7 @@
         <option value="$PROJECT_DIR$/app/views/tours/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tour_orders/show.html.erb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/app/controllers/tours_controller.rb" />
       </list>
     </option>
   </component>
@@ -238,15 +171,94 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1200" />
+    <option name="height" value="1124" />
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tour_agency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="tours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -395,84 +407,6 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tour_agency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tours" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TourAgency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TourAgency" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -622,23 +556,24 @@
       <workItem from="1555967809993" duration="24156000" />
       <workItem from="1556076511880" duration="31472000" />
       <workItem from="1556441449029" duration="7715000" />
-      <workItem from="1556470849055" duration="28587000" />
+      <workItem from="1556470849055" duration="29042000" />
+      <workItem from="1557002397829" duration="2109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99699000" />
+    <option name="totallyTimeSpent" value="102263000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1124" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21246007" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.157082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944345" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13285458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2519685" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -646,14 +581,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.30610412" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19389588" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19389588" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.17814961" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32944345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.19755058" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.15548456" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -845,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tours_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="69" column="16" selection-start-line="68" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shedules/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -907,31 +835,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+    <entry file="das://e46fa6e1-e223-48aa-ac4c-518983766964/schema/main/table/tour_orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="207">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" selection-start-line="5" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="207">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -949,10 +870,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tour_orders/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="138">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_mailer/user_tour.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -963,17 +905,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tours/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/tours_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e46fa6e1-e223-48aa-ac4c-518983766964/schema/main/table/tour_orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+        <state relative-caret-position="608">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>

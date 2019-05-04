@@ -73,7 +73,7 @@ class TourOrdersController < ApplicationController
 
   # Подтверждает администратора.
   def admin_user
-    flash[:danger] = "У Вас нет прав на действия со списком записей на экскурсию"
+    flash[:danger] = "У Вас нет прав на действия со списком записей на экскурсию" unless current_user.admin?
     redirect_to(tour_orders_url) unless current_user.admin?
   end
 

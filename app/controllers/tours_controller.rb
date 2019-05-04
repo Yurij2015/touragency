@@ -1,6 +1,6 @@
 class ToursController < ApplicationController
   before_action :logged_in_user, only: [:edit, :update]
-  before_action :admin_user, only: [:edit, :create, :update, :destroy]
+  before_action :admin_user, only: [:edit, :create, :update, :destroy, :show, :new, :index]
 
 
 
@@ -68,8 +68,8 @@ class ToursController < ApplicationController
 
   # Подтверждает администратора.
   def admin_user
-    flash[:danger] = "У Вас нет прав на действия со списком экскурсий"
     redirect_to(tours_url) unless current_user.admin?
+    flash[:danger] = "У Вас нет прав на действия со списком экскурсий" unless current_user.admin?
   end
 
 end
